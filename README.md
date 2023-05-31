@@ -1,4 +1,4 @@
-# ROS2_learning
+# ROS2_Project(python & C++)
 Implementation of all the ROS2 features and methods.
 
 Hello there ROS2 learner!
