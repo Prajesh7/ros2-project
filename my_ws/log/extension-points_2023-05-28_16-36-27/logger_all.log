@@ -1,0 +1,2 @@
+[0.251s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'extension-points']
+[0.251s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='extension-points', all=False, verbose=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f657f6d8370>, verb_extension=<colcon_devtools.verb.extension_points.ExtensionPointsVerb object at 0x7f657f69fca0>, main=<bound method ExtensionPointsVerb.main of <colcon_devtools.verb.extension_points.ExtensionPointsVerb object at 0x7f657f69fca0>>)

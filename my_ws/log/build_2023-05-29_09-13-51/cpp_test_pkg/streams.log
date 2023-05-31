@@ -1,0 +1,32 @@
+[0.049s] Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[0.142s] [ 50%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[0.144s] [ 50%] Built target number_publisher
+[5.584s] [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid MyNode::sub_callback(std_msgs::msg::Int64)[m[K’:
+[5.584s] [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/number_counter.cpp:16:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.584s]    16 |         void sub_callback([01;35m[Kstd_msgs::msg::Int64 msg[m[K)
+[5.584s]       |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[12.404s] [ 50%] [32m[1mLinking CXX executable number_counter[0m
+[12.735s] [ 50%] Built target number_counter
+[12.745s] Invoked command in '/home/prajesh/my_ws/build/cpp_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4
+[12.769s] Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_test_pkg
+[12.774s] -- Install configuration: ""
+[12.775s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/lib/cpp_test_pkg/number_publisher
+[12.776s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/lib/cpp_test_pkg/number_counter
+[12.786s] -- Set runtime path of "/home/prajesh/my_ws/install/cpp_test_pkg/lib/cpp_test_pkg/number_counter" to ""
+[12.787s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_test_pkg
+[12.787s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_test_pkg
+[12.787s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/ament_prefix_path.sh
+[12.787s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/ament_prefix_path.dsv
+[12.787s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/path.sh
+[12.788s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/path.dsv
+[12.788s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.bash
+[12.788s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.sh
+[12.788s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.zsh
+[12.789s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.dsv
+[12.789s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.dsv
+[12.789s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/packages/cpp_test_pkg
+[12.789s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/cmake/cpp_test_pkgConfig.cmake
+[12.789s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/cmake/cpp_test_pkgConfig-version.cmake
+[12.790s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.xml
+[12.792s] Invoked command in '/home/prajesh/my_ws/build/cpp_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_test_pkg

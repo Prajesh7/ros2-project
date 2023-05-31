@@ -1,0 +1,56 @@
+[0.028s] Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/prajesh/my_ws/src/cpp_test_pkg -DCMAKE_INSTALL_PREFIX=/home/prajesh/my_ws/install/cpp_test_pkg
+[0.132s] -- The C compiler identification is GNU 11.3.0
+[0.183s] -- The CXX compiler identification is GNU 11.3.0
+[0.194s] -- Detecting C compiler ABI info
+[0.276s] -- Detecting C compiler ABI info - done
+[0.282s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.284s] -- Detecting C compile features - done
+[0.288s] -- Detecting CXX compiler ABI info
+[0.392s] -- Detecting CXX compiler ABI info - done
+[0.399s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.400s] -- Detecting CXX compile features
+[0.401s] -- Detecting CXX compile features - done
+[0.410s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.584s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.679s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.721s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.726s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.736s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.751s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.769s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.842s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.845s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.885s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.897s] -- Looking for pthread.h
+[0.980s] -- Looking for pthread.h - found
+[0.980s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.050s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.051s] -- Found Threads: TRUE  
+[1.205s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.315s] -- Added test 'lint_cmake' to check CMake code style
+[1.317s] -- Added test 'xmllint' to check XML markup files
+[1.319s] -- Configuring done
+[1.323s] -- Generating done
+[1.324s] -- Build files have been written to: /home/prajesh/my_ws/build/cpp_test_pkg
+[1.332s] Invoked command in '/home/prajesh/my_ws/build/cpp_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/prajesh/my_ws/src/cpp_test_pkg -DCMAKE_INSTALL_PREFIX=/home/prajesh/my_ws/install/cpp_test_pkg
+[1.333s] Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4
+[1.369s] Invoked command in '/home/prajesh/my_ws/build/cpp_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4
+[1.402s] Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_test_pkg
+[1.410s] -- Install configuration: ""
+[1.410s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_test_pkg
+[1.412s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_test_pkg
+[1.413s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/ament_prefix_path.sh
+[1.414s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/ament_prefix_path.dsv
+[1.415s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/path.sh
+[1.416s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/path.dsv
+[1.417s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.bash
+[1.418s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.sh
+[1.419s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.zsh
+[1.420s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.dsv
+[1.421s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.dsv
+[1.422s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/packages/cpp_test_pkg
+[1.423s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/cmake/cpp_test_pkgConfig.cmake
+[1.424s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/cmake/cpp_test_pkgConfig-version.cmake
+[1.425s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.xml
+[1.428s] Invoked command in '/home/prajesh/my_ws/build/cpp_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_test_pkg

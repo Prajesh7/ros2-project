@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000472] (cpp_test_pkg) JobQueued: {'identifier': 'cpp_test_pkg', 'dependencies': OrderedDict()}
+[0.000524] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000562] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000598] (cpp_test_pkg) JobStarted: {'identifier': 'cpp_test_pkg'}
+[0.005147] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.007934] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.014269] (cpp_test_pkg) JobProgress: {'identifier': 'cpp_test_pkg', 'progress': 'cmake'}
+[0.014904] (cpp_test_pkg) JobProgress: {'identifier': 'cpp_test_pkg', 'progress': 'build'}
+[0.015767] (cpp_test_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prajesh/my_ws/build/cpp_test_pkg', '--', '-j4', '-l4'], 'cwd': '/home/prajesh/my_ws/build/cpp_test_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_IN:en'), ('USER', 'root'), ('HOME', '/root'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OKU051'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'prajesh'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/prajesh/my_ws/build/cpp_test_pkg'), ('COLCON', '1')]), 'shell': False}
+[0.018789] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.020392] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.020609] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prajesh/my_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/prajesh/my_ws/build/my_cpp_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_IN:en'), ('USER', 'root'), ('HOME', '/root'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OKU051'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'prajesh'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/prajesh/my_ws/build/my_cpp_pkg'), ('COLCON', '1')]), 'shell': False}
+[0.065220] (cpp_test_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/n_publisher.dir/src/n_publisher.cpp.o\x1b[0m\n'}
+[0.070509] (my_cpp_pkg) StdoutLine: {'line': b'[ 33%] Built target cpp_node1\n'}
+[0.072234] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target robot_news_station\n'}
+[0.090646] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target smartphone\n'}
+[0.099625] (-) TimerEvent: {}
+[0.200846] (-) TimerEvent: {}
+[0.269980] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[0.290744] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[0.297822] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/prajesh/my_ws/build/my_cpp_pkg'], 'cwd': '/home/prajesh/my_ws/build/my_cpp_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_IN:en'), ('USER', 'root'), ('HOME', '/root'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OKU051'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'prajesh'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/prajesh/my_ws/build/my_cpp_pkg'), ('COLCON', '1')]), 'shell': False}
+[0.301543] (-) TimerEvent: {}
+[0.305411] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.305950] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node1\n'}
+[0.306675] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[0.307351] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[0.307932] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[0.308339] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[0.308923] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[0.309408] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[0.309894] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[0.310377] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[0.310765] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[0.311067] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[0.311439] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[0.311762] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[0.312065] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[0.313126] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[0.313203] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[0.313602] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[0.313922] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[0.317467] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[0.374510] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[0.402379] (-) TimerEvent: {}
+[0.502720] (-) TimerEvent: {}
+[0.603474] (-) TimerEvent: {}
+[0.605534] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/prajesh/my_ws/build/my_py_pkg/build', 'install', '--record', '/home/prajesh/my_ws/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/prajesh/my_ws/src/my_py_pkg', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'LANGUAGE': 'en_IN:en', 'USER': 'root', 'HOME': '/root', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OKU051', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build', 'SHELL': '/bin/bash', 'SUDO_USER': 'prajesh', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/prajesh/my_ws/build/my_py_pkg', 'COLCON': '1', 'PYTHONPATH': '/home/prajesh/my_ws/build/my_py_pkg/prefix_override:/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:'}, 'shell': False}
+[0.703624] (-) TimerEvent: {}
+[0.793036] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.793712] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[0.794091] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[0.794403] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[0.794617] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[0.795012] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[0.798216] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.798930] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.799104] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[0.799216] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.799490] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[0.799618] (my_py_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.799705] (my_py_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.799875] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.800864] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.801198] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.802476] (my_py_pkg) StdoutLine: {'line': b"removing '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.802844] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[0.804428] (-) TimerEvent: {}
+[0.804769] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.824539] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/prajesh/my_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.824858] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/prajesh/my_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.825056] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/prajesh/my_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.825394] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/prajesh/my_ws/build/my_py_pkg/install.log'\n"}
+[0.855575] (my_py_pkg) CommandEnded: {'returncode': 0}
+[0.866363] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[0.905152] (-) TimerEvent: {}
+[1.005655] (-) TimerEvent: {}
+[1.106689] (-) TimerEvent: {}
+[1.207496] (-) TimerEvent: {}
+[1.308633] (-) TimerEvent: {}
+[1.409010] (-) TimerEvent: {}
+[1.509667] (-) TimerEvent: {}
+[1.610419] (-) TimerEvent: {}
+[1.711527] (-) TimerEvent: {}
+[1.811810] (-) TimerEvent: {}
+[1.912612] (-) TimerEvent: {}
+[2.013395] (-) TimerEvent: {}
+[2.114239] (-) TimerEvent: {}
+[2.215499] (-) TimerEvent: {}
+[2.316205] (-) TimerEvent: {}
+[2.416553] (-) TimerEvent: {}
+[2.517776] (-) TimerEvent: {}
+[2.618986] (-) TimerEvent: {}
+[2.719753] (-) TimerEvent: {}
+[2.821229] (-) TimerEvent: {}
+[2.921997] (-) TimerEvent: {}
+[2.961406] (cpp_test_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[2.961690] (cpp_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[2.961754] (cpp_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.961829] (cpp_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp:7\x1b[m\x1b[K,\n'}
+[2.961942] (cpp_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prajesh/my_ws/src/cpp_test_pkg/src/n_publisher.cpp:2\x1b[m\x1b[K:\n'}
+[2.961993] (cpp_test_pkg) StderrLine: {'line': b'/usr/include/c++/11/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (MyNode::*)(std_msgs::msg::Int64_<std::allocator<void> >), MyNode*>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.962052] (cpp_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:768:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (MyNode::*)(std_msgs::msg::Int64_<std::allocator<void> >), MyNode*>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.962103] (cpp_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (MyNode::*)(std_msgs::msg::Int64_<std::allocator<void> >); _BoundArgs = {MyNode*}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.962157] (cpp_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prajesh/my_ws/src/cpp_test_pkg/src/n_publisher.cpp:25:86:\x1b[m\x1b[K   required from here\n'}
+[2.962214] (cpp_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[2.962265] (cpp_test_pkg) StderrLine: {'line': b'  755 |       static_assert(_Varargs::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K\n'}
+[2.962314] (cpp_test_pkg) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[2.962368] (cpp_test_pkg) StderrLine: {'line': b'  756 | \x1b[01;31m\x1b[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1\x1b[m\x1b[K\n'}
+[2.962417] (cpp_test_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.962467] (cpp_test_pkg) StderrLine: {'line': b'  757 | \x1b[01;31m\x1b[K                    : sizeof...(_BoundArgs) == _Arity::value + 1\x1b[m\x1b[K,\n'}
+[2.962532] (cpp_test_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.962580] (cpp_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K(false ? (1 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (1 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[2.967731] (cpp_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prajesh/my_ws/src/cpp_test_pkg/src/n_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMyNode::MyNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.967913] (cpp_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prajesh/my_ws/src/cpp_test_pkg/src/n_publisher.cpp:25:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMyNode::create_wall_timer(std::chrono::milliseconds, std::_Bind_helper<false, void (MyNode::*)(std_msgs::msg::Int64_<std::allocator<void> >), MyNode*>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.968003] (cpp_test_pkg) StderrLine: {'line': b'   25 |             timer_ = \x1b[01;31m\x1b[Kthis->create_wall_timer(std::chrono::milliseconds(500),std::bind(&MyNode::pub_fun, this))\x1b[m\x1b[K;\n'}
+[2.968105] (cpp_test_pkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.968379] (cpp_test_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.968471] (cpp_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.968524] (cpp_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.968584] (cpp_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prajesh/my_ws/src/cpp_test_pkg/src/n_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[2.968635] (cpp_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.968705] (cpp_test_pkg) StderrLine: {'line': b'  238 |   \x1b[01;36m\x1b[Kcreate_wall_timer\x1b[m\x1b[K(\n'}
+[2.968761] (cpp_test_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.968836] (cpp_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.968911] (cpp_test_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[2.968969] (cpp_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.969026] (cpp_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.969077] (cpp_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.969125] (cpp_test_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prajesh/my_ws/src/cpp_test_pkg/src/n_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[2.969174] (cpp_test_pkg) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr) [with DurationRepT = long int; DurationT = std::ratio<1, 1000>; CallbackT = std::_Bind<void (MyNode::*(MyNode*))(std_msgs::msg::Int64_<std::allocator<void> >)>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.969310] (cpp_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prajesh/my_ws/src/cpp_test_pkg/src/n_publisher.cpp:25:45:\x1b[m\x1b[K   required from here\n'}
+[2.969366] (cpp_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.969416] (cpp_test_pkg) StderrLine: {'line': b'  110 | \x1b[01;31m\x1b[KNode\x1b[m\x1b[K::create_wall_timer(\n'}
+[2.969464] (cpp_test_pkg) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.969516] (cpp_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.969565] (cpp_test_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[3.022746] (-) TimerEvent: {}
+[3.123644] (-) TimerEvent: {}
+[3.224068] (-) TimerEvent: {}
+[3.324643] (-) TimerEvent: {}
+[3.425325] (-) TimerEvent: {}
+[3.526048] (-) TimerEvent: {}
+[3.626779] (-) TimerEvent: {}
+[3.727662] (-) TimerEvent: {}
+[3.828905] (-) TimerEvent: {}
+[3.929607] (-) TimerEvent: {}
+[4.030671] (-) TimerEvent: {}
+[4.131083] (-) TimerEvent: {}
+[4.214633] (cpp_test_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/n_publisher.dir/build.make:76: CMakeFiles/n_publisher.dir/src/n_publisher.cpp.o] Error 1\n'}
+[4.216455] (cpp_test_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/n_publisher.dir/all] Error 2\n'}
+[4.217257] (cpp_test_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.218645] (cpp_test_pkg) CommandEnded: {'returncode': 2}
+[4.231388] (-) TimerEvent: {}
+[4.250058] (cpp_test_pkg) JobEnded: {'identifier': 'cpp_test_pkg', 'rc': 2}
+[4.261397] (-) EventReactorShutdown: {}

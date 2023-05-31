@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_pub.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable number_publisher[0m
+[ 50%] Built target number_publisher
+-- Install configuration: ""
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/lib/cpp_test_pkg/number_publisher
+-- Set runtime path of "/home/prajesh/my_ws/install/cpp_test_pkg/lib/cpp_test_pkg/number_publisher" to ""
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_test_pkg
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_test_pkg
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/path.sh
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/path.dsv
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.bash
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.sh
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.zsh
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.dsv
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.dsv
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/packages/cpp_test_pkg
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/cmake/cpp_test_pkgConfig.cmake
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/cmake/cpp_test_pkgConfig-version.cmake
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.xml

@@ -1,0 +1,86 @@
+create python package:
+    - ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy
+
+compile python pkg:
+    - colcon build
+    - colcon build --packages-select my_py_pkg
+    - colcon build --packages-select my_py_pkg --symlink-install : removes need to run colcon build for every change(only python)
+
+create c++ package:
+    - ros2 pkg create my_cpp_pkg --build-type ament_cmake --dependencies rclcpp
+
+compile cpp pkg:
+    - colcon build
+    - colcon build --packages-select my_cpp_pkg
+
+python node commands:
+    - /my_ws/src/my_py_pkg/my_py_pkg/my_first_node.py
+    - also edit /my_ws/src/my_py_pkg/setup.py
+    - ros2 run my_py_pkg py_node
+
+cpp node commands:
+    - /my_ws/src/my_cpp_pkg/src/my_first_node.cpp
+    - also edit my_ws/src/my_cpp_pkg/CMakeLists.txt
+    - ros2 run my_cpp_pkg cpp_node1
+    - ros2 service call /service_name /service_type (req-args)(eg: {a: 6, b: 7})
+
+ROS2 CLI:
+    - ros2 <tab><tab> : shows all tools
+    - ros2 run pkg_name <tab><tab> : shows all executables
+    - ros2 node : list/info/...
+    - ros2 run pgk_name node_name --ros-args --remap (or use) -r __node:=abc : rename node for multiple launch of the same node
+    - rqt_graph or rqt
+    - ros2 interface show example_interfaces/msg/String(<-for example) 
+
+ROS2 create custom MSG/SRV: ----------------------------->> for ref: /home/prajesh/my_ws/src/my_robot_interfaces
+    - create a pkg with interface name( no build-type and no dependencies)
+        - remove->src, include folders
+        - make->msg, srv folders
+        
+    - make following changes to "package.xml": (add the following lines)
+        - <buildtool_depend>rosidl_default_generators</buildtool_depend>
+        - <exec_depend>rosidl_default_runtime</exec_depend>
+        - <member_of_group>rosidl_interface_packages</member_of_group>
+
+    - make the following changes to "CMakeLists.txt": (add the following lines)
+        - find_package(rosidl_default_generators REQUIRED)
+
+        - rosidl_generate_interfaces(${PROJECT_NAME}
+          "msg/HardwareStatus.msg"<--------------------------(example msg name)
+          )
+          ament_export_dependencies(rosidl_default_runtime)
+        
+        -rosidl_generate_interfaces(${PROJECT_NAME}
+         "msg/HardwareStatus.msg"
+         "srv/ComputeRectArea.srv"<---------------------------(example srv name)
+         )
+    
+    - in the "package.xml" of indevidual nodes to use the custom msg/srv, add the following: (for python and c++)
+        - <depend>interface_name</depend> 
+
+    - in the "CMakeLists.txt" of indevidual nodes to use the custom msg/arv, add the following: (for c++)
+        - find_package(interface_name REQUIRED)<----------------(find package first)
+        - add_executable(hw_status_publisher src/hw_status_publisher.cpp)
+          ament_target_dependencies(hw_status_publisher rclcpp std_msgs interface_name) <---------(add interface name to ament_target_dependencies)
+
+ROS2 params:
+    - ros2 run pkg_name node_name --ros-args -p param_name:=param_val
+    - self.declare_parameter("param_name", default_value(not_mandatory))<--------------------(python)
+        - self.get_parameter("param_name").value  
+    - this->declare_parameter("param_name", default_value(mandatory));<------------------(c++)
+        - this->get_parameter("param_name").as_type( type: int, bool, double, ...);
+
+ROS2 launch files: ---------------------------->> for ref: /home/prajesh/my_ws/src/my_robot_bringup
+    - create a new pkg with name package_name_bringup(general practice)
+        - remove src, include folders
+        - make launch folder
+    
+    - make the following changes in CMakeLists.txt:
+        -install(DIRECTORY
+          launch
+          DESTINATION share/${PROJECT_NAME}
+         )
+    
+    - make the following changes in package.xml:
+        -<exec_depend>my_py_pkg</exec_depend>
+         <exec_depend>pkg_name</exec_depend> <-------------------(name of the package included in the launch file)

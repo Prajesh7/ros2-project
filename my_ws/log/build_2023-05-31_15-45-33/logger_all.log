@@ -1,0 +1,754 @@
+[0.296s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.296s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8632774520>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f86327740a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f86327740a0>>)
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.315s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/prajesh/my_ws'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_interfaces) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/battery_interfaces' with type 'ros.ament_cmake' and name 'battery_interfaces'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_practice) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_practice) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_practice) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_practice) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_practice) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_practice) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_practice) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_practice) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_practice) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_practice' with type 'ros.ament_cmake' and name 'cpp_practice'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_service_test) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_service_test) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_service_test) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_service_test) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_service_test) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_service_test) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_service_test) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_service_test) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_service_test) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_service_test' with type 'ros.ament_cmake' and name 'cpp_service_test'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_test_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_test_pkg) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_test_pkg) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_test_pkg) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_test_pkg) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_test_pkg) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_test_pkg) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_test_pkg) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_test_pkg) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_test_pkg' with type 'ros.ament_cmake' and name 'cpp_test_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_system) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_system) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_system) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_system) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_system) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_system) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_system) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_system) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/led_system) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/led_system' with type 'ros.ament_cmake' and name 'led_system'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cpp_pkg' with type 'ros.ament_cmake' and name 'my_cpp_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_final_project) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_final_project) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_final_project) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_final_project) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_final_project) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_final_project) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_final_project) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_final_project) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_final_project) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_final_project' with type 'ros.ament_python' and name 'py_final_project'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_server_test) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_server_test) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_server_test) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_server_test) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_server_test) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_server_test) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_server_test) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_server_test) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_server_test) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_server_test' with type 'ros.ament_python' and name 'py_server_test'
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.358s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/prajesh/my_ws/install
+[0.360s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/prajesh/tbot_ws/install
+[0.361s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 383 installed packages in /opt/ros/humble
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'battery_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.420s] DEBUG:colcon.colcon_core.verb:Building package 'battery_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prajesh/my_ws/build/battery_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prajesh/my_ws/install/battery_interfaces', 'merge_install': False, 'path': '/home/prajesh/my_ws/src/battery_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'cpp_practice' build argument 'cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'cpp_practice' build argument 'cmake_target' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'cpp_practice' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'cpp_practice' build argument 'cmake_clean_cache' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'cpp_practice' build argument 'cmake_clean_first' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'cpp_practice' build argument 'cmake_force_configure' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'cpp_practice' build argument 'ament_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'cpp_practice' build argument 'catkin_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'cpp_practice' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.421s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_practice' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prajesh/my_ws/build/cpp_practice', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prajesh/my_ws/install/cpp_practice', 'merge_install': False, 'path': '/home/prajesh/my_ws/src/cpp_practice', 'symlink_install': False, 'test_result_base': None}
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_test' build argument 'cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_test' build argument 'cmake_target' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_service_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prajesh/my_ws/build/cpp_service_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prajesh/my_ws/install/cpp_service_test', 'merge_install': False, 'path': '/home/prajesh/my_ws/src/cpp_service_test', 'symlink_install': False, 'test_result_base': None}
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'cpp_test_pkg' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'cpp_test_pkg' build argument 'cmake_target' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'cpp_test_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'cpp_test_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'cpp_test_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'cpp_test_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'cpp_test_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'cpp_test_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'cpp_test_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.423s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_test_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prajesh/my_ws/build/cpp_test_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prajesh/my_ws/install/cpp_test_pkg', 'merge_install': False, 'path': '/home/prajesh/my_ws/src/cpp_test_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'my_cpp_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prajesh/my_ws/build/my_cpp_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prajesh/my_ws/install/my_cpp_pkg', 'merge_install': False, 'path': '/home/prajesh/my_ws/src/my_cpp_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prajesh/my_ws/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prajesh/my_ws/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/prajesh/my_ws/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'py_final_project' build argument 'cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'py_final_project' build argument 'cmake_target' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'py_final_project' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'py_final_project' build argument 'cmake_clean_cache' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'py_final_project' build argument 'cmake_clean_first' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'py_final_project' build argument 'cmake_force_configure' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'py_final_project' build argument 'ament_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'py_final_project' build argument 'catkin_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'py_final_project' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.426s] DEBUG:colcon.colcon_core.verb:Building package 'py_final_project' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prajesh/my_ws/build/py_final_project', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prajesh/my_ws/install/py_final_project', 'merge_install': False, 'path': '/home/prajesh/my_ws/src/py_final_project', 'symlink_install': False, 'test_result_base': None}
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'py_server_test' build argument 'cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'py_server_test' build argument 'cmake_target' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'py_server_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'py_server_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'py_server_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'py_server_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'py_server_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'py_server_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'py_server_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.427s] DEBUG:colcon.colcon_core.verb:Building package 'py_server_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prajesh/my_ws/build/py_server_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prajesh/my_ws/install/py_server_test', 'merge_install': False, 'path': '/home/prajesh/my_ws/src/py_server_test', 'symlink_install': False, 'test_result_base': None}
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'led_system' build argument 'cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'led_system' build argument 'cmake_target' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'led_system' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'led_system' build argument 'cmake_clean_cache' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'led_system' build argument 'cmake_clean_first' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'led_system' build argument 'cmake_force_configure' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'led_system' build argument 'ament_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'led_system' build argument 'catkin_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'led_system' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.428s] DEBUG:colcon.colcon_core.verb:Building package 'led_system' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prajesh/my_ws/build/led_system', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prajesh/my_ws/install/led_system', 'merge_install': False, 'path': '/home/prajesh/my_ws/src/led_system', 'symlink_install': False, 'test_result_base': None}
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.429s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prajesh/my_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prajesh/my_ws/install/my_py_pkg', 'merge_install': False, 'path': '/home/prajesh/my_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.430s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prajesh/my_ws/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prajesh/my_ws/install/my_robot_bringup', 'merge_install': False, 'path': '/home/prajesh/my_ws/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.430s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.434s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.434s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/prajesh/my_ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[0.434s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/prajesh/my_ws/src/my_robot_interfaces'
+[0.437s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.437s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.437s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.442s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/prajesh/my_ws/src/battery_interfaces' with build type 'ament_cmake'
+[0.443s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/prajesh/my_ws/src/battery_interfaces'
+[0.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.444s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.449s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/prajesh/my_ws/src/my_cpp_pkg' with build type 'ament_cmake'
+[0.449s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/prajesh/my_ws/src/my_cpp_pkg'
+[0.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.451s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.456s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/prajesh/my_ws/src/py_final_project' with build type 'ament_python'
+[0.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_final_project', 'ament_prefix_path')
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/py_final_project/share/py_final_project/hook/ament_prefix_path.ps1'
+[0.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/py_final_project/share/py_final_project/hook/ament_prefix_path.dsv'
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/py_final_project/share/py_final_project/hook/ament_prefix_path.sh'
+[0.462s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_robot_interfaces -- -j4 -l4
+[0.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/battery_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/battery_interfaces -- -j4 -l4
+[0.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4
+[0.798s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/prajesh/my_ws/src/py_final_project'
+[0.800s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.800s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4
+[0.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/my_cpp_pkg
+[0.900s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pkg)
+[0.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/my_cpp_pkg
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_cpp_pkg' for CMake module files
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_cpp_pkg' for CMake config files
+[0.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pkg', 'cmake_prefix_path')
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.ps1'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.dsv'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.sh'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_cpp_pkg/lib'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_cpp_pkg/bin'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_cpp_pkg/lib/pkgconfig/my_cpp_pkg.pc'
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_cpp_pkg/lib/python3.10/site-packages'
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_cpp_pkg/bin'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.ps1'
+[0.925s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv'
+[0.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.sh'
+[0.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.bash'
+[0.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.zsh'
+[0.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/my_cpp_pkg/share/colcon-core/packages/my_cpp_pkg)
+[0.966s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pkg)
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_cpp_pkg' for CMake module files
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_cpp_pkg' for CMake config files
+[0.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pkg', 'cmake_prefix_path')
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.ps1'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.sh'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_cpp_pkg/lib'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_cpp_pkg/bin'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_cpp_pkg/lib/pkgconfig/my_cpp_pkg.pc'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_cpp_pkg/lib/python3.10/site-packages'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_cpp_pkg/bin'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.ps1'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.sh'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.bash'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.zsh'
+[0.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/my_cpp_pkg/share/colcon-core/packages/my_cpp_pkg)
+[0.980s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/prajesh/my_ws/src/cpp_practice' with build type 'ament_cmake'
+[0.981s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/prajesh/my_ws/src/cpp_practice'
+[0.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_robot_interfaces -- -j4 -l4
+[0.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/battery_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/battery_interfaces -- -j4 -l4
+[1.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/cpp_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_practice -- -j4 -l4
+[1.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/cpp_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_practice -- -j4 -l4
+[1.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/cpp_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_practice
+[1.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/battery_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/battery_interfaces
+[1.136s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_practice)
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_practice' for CMake module files
+[1.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/cpp_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_practice
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_practice' for CMake config files
+[1.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_practice', 'cmake_prefix_path')
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/hook/cmake_prefix_path.ps1'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/hook/cmake_prefix_path.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/hook/cmake_prefix_path.sh'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_practice/lib'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_practice/bin'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_practice/lib/pkgconfig/cpp_practice.pc'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_practice/lib/python3.10/site-packages'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_practice/bin'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/package.ps1'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/package.dsv'
+[1.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/package.sh'
+[1.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/package.bash'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/package.zsh'
+[1.164s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/cpp_practice/share/colcon-core/packages/cpp_practice)
+[1.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_practice)
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_practice' for CMake module files
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_practice' for CMake config files
+[1.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_practice', 'cmake_prefix_path')
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/hook/cmake_prefix_path.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/hook/cmake_prefix_path.dsv'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/hook/cmake_prefix_path.sh'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_practice/lib'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_practice/bin'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_practice/lib/pkgconfig/cpp_practice.pc'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_practice/lib/python3.10/site-packages'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_practice/bin'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/package.ps1'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/package.dsv'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/package.sh'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/package.bash'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/package.zsh'
+[1.225s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/cpp_practice/share/colcon-core/packages/cpp_practice)
+[1.226s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/prajesh/my_ws/src/cpp_service_test' with build type 'ament_cmake'
+[1.226s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/prajesh/my_ws/src/cpp_service_test'
+[1.228s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.229s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.237s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(battery_interfaces)
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/battery_interfaces' for CMake module files
+[1.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/battery_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/battery_interfaces
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/battery_interfaces' for CMake config files
+[1.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_interfaces', 'cmake_prefix_path')
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/hook/cmake_prefix_path.ps1'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/hook/cmake_prefix_path.dsv'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/hook/cmake_prefix_path.sh'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/battery_interfaces/lib'
+[1.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_interfaces', 'ld_library_path_lib')
+[1.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/hook/ld_library_path_lib.ps1'
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/hook/ld_library_path_lib.dsv'
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/hook/ld_library_path_lib.sh'
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/battery_interfaces/bin'
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/battery_interfaces/lib/pkgconfig/battery_interfaces.pc'
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/battery_interfaces/lib/python3.10/site-packages'
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/battery_interfaces/bin'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/package.ps1'
+[1.252s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/package.dsv'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/package.sh'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/package.bash'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/package.zsh'
+[1.254s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/battery_interfaces/share/colcon-core/packages/battery_interfaces)
+[1.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/src/py_final_project': PYTHONPATH=/home/prajesh/my_ws/build/py_final_project/prefix_override:/home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_final_project build --build-base /home/prajesh/my_ws/build/py_final_project/build install --record /home/prajesh/my_ws/build/py_final_project/install.log --single-version-externally-managed
+[1.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/cpp_service_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_service_test -- -j4 -l4
+[1.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/my_robot_interfaces
+[1.355s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_interfaces' for CMake module files
+[1.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/my_robot_interfaces
+[1.358s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_interfaces' for CMake config files
+[1.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[1.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[1.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[1.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[1.362s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_interfaces/lib'
+[1.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[1.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[1.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_interfaces/bin'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_interfaces/lib/python3.10/site-packages'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_interfaces/bin'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[1.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[1.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/cpp_service_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_service_test -- -j4 -l4
+[1.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/cpp_service_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_service_test
+[1.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_service_test)
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_service_test' for CMake module files
+[1.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/cpp_service_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_service_test
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_service_test' for CMake config files
+[1.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_service_test', 'cmake_prefix_path')
+[1.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/hook/cmake_prefix_path.ps1'
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/hook/cmake_prefix_path.dsv'
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/hook/cmake_prefix_path.sh'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_service_test/lib'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_service_test/bin'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_service_test/lib/pkgconfig/cpp_service_test.pc'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_service_test/lib/python3.10/site-packages'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_service_test/bin'
+[1.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/package.ps1'
+[1.488s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/package.dsv'
+[1.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/package.sh'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/package.bash'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/package.zsh'
+[1.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/cpp_service_test/share/colcon-core/packages/cpp_service_test)
+[1.526s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(battery_interfaces)
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/battery_interfaces' for CMake module files
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/battery_interfaces' for CMake config files
+[1.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_interfaces', 'cmake_prefix_path')
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/hook/cmake_prefix_path.ps1'
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/hook/cmake_prefix_path.dsv'
+[1.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/hook/cmake_prefix_path.sh'
+[1.532s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/battery_interfaces/lib'
+[1.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_interfaces', 'ld_library_path_lib')
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/hook/ld_library_path_lib.ps1'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/hook/ld_library_path_lib.dsv'
+[1.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/hook/ld_library_path_lib.sh'
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/battery_interfaces/bin'
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/battery_interfaces/lib/pkgconfig/battery_interfaces.pc'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/battery_interfaces/lib/python3.10/site-packages'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/battery_interfaces/bin'
+[1.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/package.ps1'
+[1.537s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/package.dsv'
+[1.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/package.sh'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/package.bash'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/package.zsh'
+[1.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/battery_interfaces/share/colcon-core/packages/battery_interfaces)
+[1.540s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/prajesh/my_ws/src/cpp_test_pkg' with build type 'ament_cmake'
+[1.540s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/prajesh/my_ws/src/cpp_test_pkg'
+[1.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_service_test)
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_service_test' for CMake module files
+[1.553s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_service_test' for CMake config files
+[1.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_service_test', 'cmake_prefix_path')
+[1.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/hook/cmake_prefix_path.ps1'
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/hook/cmake_prefix_path.dsv'
+[1.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/hook/cmake_prefix_path.sh'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_service_test/lib'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_service_test/bin'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_service_test/lib/pkgconfig/cpp_service_test.pc'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_service_test/lib/python3.10/site-packages'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_service_test/bin'
+[1.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/package.ps1'
+[1.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/package.dsv'
+[1.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/package.sh'
+[1.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/package.bash'
+[1.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/package.zsh'
+[1.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/cpp_service_test/share/colcon-core/packages/cpp_service_test)
+[1.565s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/prajesh/my_ws/src/py_server_test' with build type 'ament_python'
+[1.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_server_test', 'ament_prefix_path')
+[1.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/py_server_test/share/py_server_test/hook/ament_prefix_path.ps1'
+[1.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/py_server_test/share/py_server_test/hook/ament_prefix_path.dsv'
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/py_server_test/share/py_server_test/hook/ament_prefix_path.sh'
+[1.571s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4
+[1.859s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/prajesh/my_ws/src/py_server_test'
+[1.861s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.861s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.868s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_interfaces' for CMake module files
+[1.870s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_interfaces' for CMake config files
+[1.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[1.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[1.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[1.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[1.873s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_interfaces/lib'
+[1.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[1.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[1.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[1.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[1.876s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_interfaces/bin'
+[1.876s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[1.876s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_interfaces/lib/python3.10/site-packages'
+[1.877s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_interfaces/bin'
+[1.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[1.878s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[1.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[1.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[1.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[1.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[1.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/cpp_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4
+[1.891s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/prajesh/my_ws/src/my_py_pkg' with build type 'ament_python'
+[1.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[1.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[1.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[1.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[1.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.895s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.905s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/py_final_project' for CMake module files
+[1.906s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/py_final_project' for CMake config files
+[1.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/src/py_final_project' returned '0': PYTHONPATH=/home/prajesh/my_ws/build/py_final_project/prefix_override:/home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_final_project build --build-base /home/prajesh/my_ws/build/py_final_project/build install --record /home/prajesh/my_ws/build/py_final_project/install.log --single-version-externally-managed
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/py_final_project/lib'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/py_final_project/bin'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/py_final_project/lib/pkgconfig/py_final_project.pc'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages'
+[1.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_final_project', 'pythonpath')
+[1.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/py_final_project/share/py_final_project/hook/pythonpath.ps1'
+[1.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/py_final_project/share/py_final_project/hook/pythonpath.dsv'
+[1.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/py_final_project/share/py_final_project/hook/pythonpath.sh'
+[1.910s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/py_final_project/bin'
+[1.910s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_final_project)
+[1.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/py_final_project/share/py_final_project/package.ps1'
+[1.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/py_final_project/share/py_final_project/package.dsv'
+[1.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/py_final_project/share/py_final_project/package.sh'
+[1.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/py_final_project/share/py_final_project/package.bash'
+[1.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/py_final_project/share/py_final_project/package.zsh'
+[1.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/py_final_project/share/colcon-core/packages/py_final_project)
+[1.917s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/prajesh/my_ws/src/led_system' with build type 'ament_cmake'
+[1.918s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/prajesh/my_ws/src/led_system'
+[1.919s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.919s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.219s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/prajesh/my_ws/src/my_py_pkg'
+[2.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_test_pkg
+[2.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/led_system': CMAKE_PREFIX_PATH=/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/prajesh/my_ws/install/battery_interfaces/lib:/home/prajesh/my_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/prajesh/my_ws/build/led_system -- -j4 -l4
+[2.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_test_pkg)
+[2.278s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_test_pkg' for CMake module files
+[2.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/cpp_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_test_pkg
+[2.280s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_test_pkg' for CMake config files
+[2.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_test_pkg', 'cmake_prefix_path')
+[2.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/hook/cmake_prefix_path.ps1'
+[2.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/hook/cmake_prefix_path.dsv'
+[2.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/hook/cmake_prefix_path.sh'
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_test_pkg/lib'
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_test_pkg/bin'
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_test_pkg/lib/pkgconfig/cpp_test_pkg.pc'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_test_pkg/lib/python3.10/site-packages'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_test_pkg/bin'
+[2.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.ps1'
+[2.291s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.dsv'
+[2.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.sh'
+[2.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.bash'
+[2.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.zsh'
+[2.293s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/cpp_test_pkg/share/colcon-core/packages/cpp_test_pkg)
+[2.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/src/py_server_test': PYTHONPATH=/home/prajesh/my_ws/build/py_server_test/prefix_override:/home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_server_test build --build-base /home/prajesh/my_ws/build/py_server_test/build install --record /home/prajesh/my_ws/build/py_server_test/install.log --single-version-externally-managed
+[2.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/led_system' returned '0': CMAKE_PREFIX_PATH=/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/prajesh/my_ws/install/battery_interfaces/lib:/home/prajesh/my_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/prajesh/my_ws/build/led_system -- -j4 -l4
+[2.500s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_test_pkg)
+[2.502s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_test_pkg' for CMake module files
+[2.503s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_test_pkg' for CMake config files
+[2.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_test_pkg', 'cmake_prefix_path')
+[2.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/hook/cmake_prefix_path.ps1'
+[2.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/hook/cmake_prefix_path.dsv'
+[2.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/hook/cmake_prefix_path.sh'
+[2.507s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_test_pkg/lib'
+[2.507s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_test_pkg/bin'
+[2.507s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_test_pkg/lib/pkgconfig/cpp_test_pkg.pc'
+[2.507s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_test_pkg/lib/python3.10/site-packages'
+[2.508s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/cpp_test_pkg/bin'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.ps1'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.dsv'
+[2.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.sh'
+[2.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.bash'
+[2.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.zsh'
+[2.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/cpp_test_pkg/share/colcon-core/packages/cpp_test_pkg)
+[2.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/led_system': CMAKE_PREFIX_PATH=/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/prajesh/my_ws/install/battery_interfaces/lib:/home/prajesh/my_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/prajesh/my_ws/build/led_system
+[2.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(led_system)
+[2.585s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/led_system' for CMake module files
+[2.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/led_system' returned '0': CMAKE_PREFIX_PATH=/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/prajesh/my_ws/install/battery_interfaces/lib:/home/prajesh/my_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/prajesh/my_ws/build/led_system
+[2.586s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/led_system' for CMake config files
+[2.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('led_system', 'cmake_prefix_path')
+[2.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/led_system/share/led_system/hook/cmake_prefix_path.ps1'
+[2.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/led_system/share/led_system/hook/cmake_prefix_path.dsv'
+[2.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/led_system/share/led_system/hook/cmake_prefix_path.sh'
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/led_system/lib'
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/led_system/bin'
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/led_system/lib/pkgconfig/led_system.pc'
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/led_system/lib/python3.10/site-packages'
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/led_system/bin'
+[2.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/led_system/share/led_system/package.ps1'
+[2.608s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/led_system/share/led_system/package.dsv'
+[2.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/led_system/share/led_system/package.sh'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/led_system/share/led_system/package.bash'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/led_system/share/led_system/package.zsh'
+[2.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/led_system/share/colcon-core/packages/led_system)
+[2.725s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/py_server_test' for CMake module files
+[2.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/src/py_server_test' returned '0': PYTHONPATH=/home/prajesh/my_ws/build/py_server_test/prefix_override:/home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_server_test build --build-base /home/prajesh/my_ws/build/py_server_test/build install --record /home/prajesh/my_ws/build/py_server_test/install.log --single-version-externally-managed
+[2.726s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/py_server_test' for CMake config files
+[2.727s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/py_server_test/lib'
+[2.727s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/py_server_test/bin'
+[2.727s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/py_server_test/lib/pkgconfig/py_server_test.pc'
+[2.727s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages'
+[2.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_server_test', 'pythonpath')
+[2.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/py_server_test/share/py_server_test/hook/pythonpath.ps1'
+[2.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/py_server_test/share/py_server_test/hook/pythonpath.dsv'
+[2.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/py_server_test/share/py_server_test/hook/pythonpath.sh'
+[2.730s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/py_server_test/bin'
+[2.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_server_test)
+[2.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/py_server_test/share/py_server_test/package.ps1'
+[2.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/py_server_test/share/py_server_test/package.dsv'
+[2.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/py_server_test/share/py_server_test/package.sh'
+[2.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/py_server_test/share/py_server_test/package.bash'
+[2.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/py_server_test/share/py_server_test/package.zsh'
+[2.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/py_server_test/share/colcon-core/packages/py_server_test)
+[2.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(led_system)
+[2.742s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/led_system' for CMake module files
+[2.742s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/led_system' for CMake config files
+[2.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('led_system', 'cmake_prefix_path')
+[2.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/led_system/share/led_system/hook/cmake_prefix_path.ps1'
+[2.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/led_system/share/led_system/hook/cmake_prefix_path.dsv'
+[2.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/led_system/share/led_system/hook/cmake_prefix_path.sh'
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/led_system/lib'
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/led_system/bin'
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/led_system/lib/pkgconfig/led_system.pc'
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/led_system/lib/python3.10/site-packages'
+[2.746s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/led_system/bin'
+[2.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/led_system/share/led_system/package.ps1'
+[2.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/led_system/share/led_system/package.dsv'
+[2.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/led_system/share/led_system/package.sh'
+[2.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/led_system/share/led_system/package.bash'
+[2.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/led_system/share/led_system/package.zsh'
+[2.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/led_system/share/colcon-core/packages/led_system)
+[2.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node PYTHONPATH=/home/prajesh/my_ws/build/my_py_pkg/prefix_override:/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/prajesh/my_ws/build/my_py_pkg/build install --record /home/prajesh/my_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_py_pkg' for CMake module files
+[3.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node PYTHONPATH=/home/prajesh/my_ws/build/my_py_pkg/prefix_override:/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/prajesh/my_ws/build/my_py_pkg/build install --record /home/prajesh/my_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_py_pkg' for CMake config files
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_py_pkg/lib'
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_py_pkg/bin'
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages'
+[3.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[3.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[3.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[3.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[3.116s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_py_pkg/bin'
+[3.116s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[3.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[3.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[3.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_py_pkg/share/my_py_pkg/package.sh'
+[3.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_py_pkg/share/my_py_pkg/package.bash'
+[3.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[3.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[3.120s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/prajesh/my_ws/src/my_robot_bringup' with build type 'ament_cmake'
+[3.120s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/prajesh/my_ws/src/my_robot_bringup'
+[3.121s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.121s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/prajesh/my_ws/install/my_py_pkg:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/opt/ros/humble CMAKE_PREFIX_PATH=/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble PYTHONPATH=/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages:/home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages:/home/prajesh/my_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/prajesh/my_ws/build/my_robot_bringup -- -j4 -l4
+[3.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/prajesh/my_ws/install/my_py_pkg:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/opt/ros/humble CMAKE_PREFIX_PATH=/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble PYTHONPATH=/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages:/home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages:/home/prajesh/my_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/prajesh/my_ws/build/my_robot_bringup -- -j4 -l4
+[3.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prajesh/my_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/prajesh/my_ws/install/my_py_pkg:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/opt/ros/humble CMAKE_PREFIX_PATH=/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble PYTHONPATH=/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages:/home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages:/home/prajesh/my_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/prajesh/my_ws/build/my_robot_bringup
+[3.229s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[3.231s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_bringup' for CMake module files
+[3.232s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_bringup' for CMake config files
+[3.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[3.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[3.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[3.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[3.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prajesh/my_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/prajesh/my_ws/install/my_py_pkg:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/opt/ros/humble CMAKE_PREFIX_PATH=/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/my_robot_bringup:/home/prajesh/my_ws/install/led_system:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble PYTHONPATH=/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages:/home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages:/home/prajesh/my_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/prajesh/my_ws/build/my_robot_bringup
+[3.239s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_bringup/bin'
+[3.239s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[3.239s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_bringup/lib/python3.10/site-packages'
+[3.240s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_bringup/bin'
+[3.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[3.241s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[3.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[3.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[3.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[3.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[3.265s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[3.267s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_bringup' for CMake module files
+[3.267s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_bringup' for CMake config files
+[3.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[3.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[3.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[3.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[3.270s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_bringup/bin'
+[3.270s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[3.271s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_bringup/lib/python3.10/site-packages'
+[3.271s] Level 1:colcon.colcon_core.environment:checking '/home/prajesh/my_ws/install/my_robot_bringup/bin'
+[3.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[3.273s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[3.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[3.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[3.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/prajesh/my_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[3.275s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prajesh/my_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[3.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.276s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.276s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.276s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.281s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.281s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.281s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.294s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.296s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/prajesh/my_ws/install/local_setup.ps1'
+[3.297s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/prajesh/my_ws/install/_local_setup_util_ps1.py'
+[3.299s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/prajesh/my_ws/install/setup.ps1'
+[3.304s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/prajesh/my_ws/install/local_setup.sh'
+[3.306s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/prajesh/my_ws/install/_local_setup_util_sh.py'
+[3.306s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/prajesh/my_ws/install/setup.sh'
+[3.311s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/prajesh/my_ws/install/local_setup.bash'
+[3.312s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/prajesh/my_ws/install/setup.bash'
+[3.315s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/prajesh/my_ws/install/local_setup.zsh'
+[3.317s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/prajesh/my_ws/install/setup.zsh'

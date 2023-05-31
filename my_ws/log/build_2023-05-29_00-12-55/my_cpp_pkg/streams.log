@@ -1,0 +1,6 @@
+[0.027s] Invoking command in '/home/prajesh/my_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4
+[0.084s] [ 66%] Built target cpp_node1
+[0.084s] [ 66%] Built target smartphone
+[0.087s] [ 83%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[5.614s] [100%] [32m[1mLinking CXX executable robot_news_station[0m
+[5.791s] [100%] Built target robot_news_station

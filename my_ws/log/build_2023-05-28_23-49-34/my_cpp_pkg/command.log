@@ -1,0 +1,4 @@
+Invoking command in '/home/prajesh/my_ws/build/my_cpp_pkg': /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4
+Invoked command in '/home/prajesh/my_ws/build/my_cpp_pkg' returned '0': /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4
+Invoking command in '/home/prajesh/my_ws/build/my_cpp_pkg': /usr/bin/cmake --install /home/prajesh/my_ws/build/my_cpp_pkg
+Invoked command in '/home/prajesh/my_ws/build/my_cpp_pkg' returned '0': /usr/bin/cmake --install /home/prajesh/my_ws/build/my_cpp_pkg

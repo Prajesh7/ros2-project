@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target add_int_server[0m
+[35m[1mConsolidate compiler generated dependencies of target add_int_client[0m
+[ 50%] Built target add_int_server
+[ 75%] [32mBuilding CXX object CMakeFiles/add_int_client.dir/src/add_int_client.cpp.o[0m

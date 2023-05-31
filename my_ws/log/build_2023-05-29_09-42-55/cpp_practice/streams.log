@@ -1,0 +1,25 @@
+[0.039s] Invoking command in '/home/prajesh/my_ws/build/cpp_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_practice -- -j4 -l4
+[0.112s] [ 50%] [32mBuilding CXX object CMakeFiles/number_generator.dir/src/number_generator.cpp.o[0m
+[4.609s] [100%] [32m[1mLinking CXX executable number_generator[0m
+[4.790s] [100%] Built target number_generator
+[4.801s] Invoked command in '/home/prajesh/my_ws/build/cpp_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_practice -- -j4 -l4
+[4.822s] Invoking command in '/home/prajesh/my_ws/build/cpp_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_practice
+[4.829s] -- Install configuration: ""
+[4.829s] -- Installing: /home/prajesh/my_ws/install/cpp_practice/lib/cpp_practice/number_generator
+[4.830s] -- Set runtime path of "/home/prajesh/my_ws/install/cpp_practice/lib/cpp_practice/number_generator" to ""
+[4.831s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_practice/share/ament_index/resource_index/package_run_dependencies/cpp_practice
+[4.831s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_practice/share/ament_index/resource_index/parent_prefix_path/cpp_practice
+[4.831s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/environment/ament_prefix_path.sh
+[4.831s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/environment/ament_prefix_path.dsv
+[4.831s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/environment/path.sh
+[4.831s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/environment/path.dsv
+[4.831s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/local_setup.bash
+[4.831s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/local_setup.sh
+[4.831s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/local_setup.zsh
+[4.831s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/local_setup.dsv
+[4.832s] -- Installing: /home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/package.dsv
+[4.832s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_practice/share/ament_index/resource_index/packages/cpp_practice
+[4.832s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/cmake/cpp_practiceConfig.cmake
+[4.832s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/cmake/cpp_practiceConfig-version.cmake
+[4.832s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_practice/share/cpp_practice/package.xml
+[4.835s] Invoked command in '/home/prajesh/my_ws/build/cpp_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_practice

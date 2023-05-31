@@ -1,0 +1,25 @@
+[1.143s] Invoking command in '/home/prajesh/my_ws/src/py_final_project': PYTHONPATH=/home/prajesh/my_ws/build/py_final_project/prefix_override:/home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_final_project build --build-base /home/prajesh/my_ws/build/py_final_project/build install --record /home/prajesh/my_ws/build/py_final_project/install.log --single-version-externally-managed
+[2.127s] running egg_info
+[2.127s] writing ../../build/py_final_project/py_final_project.egg-info/PKG-INFO
+[2.127s] writing dependency_links to ../../build/py_final_project/py_final_project.egg-info/dependency_links.txt
+[2.127s] writing entry points to ../../build/py_final_project/py_final_project.egg-info/entry_points.txt
+[2.127s] writing requirements to ../../build/py_final_project/py_final_project.egg-info/requires.txt
+[2.128s] writing top-level names to ../../build/py_final_project/py_final_project.egg-info/top_level.txt
+[2.132s] reading manifest file '../../build/py_final_project/py_final_project.egg-info/SOURCES.txt'
+[2.133s] writing manifest file '../../build/py_final_project/py_final_project.egg-info/SOURCES.txt'
+[2.133s] running build
+[2.133s] running build_py
+[2.133s] copying py_final_project/turtle_generator.py -> /home/prajesh/my_ws/build/py_final_project/build/lib/py_final_project
+[2.134s] running install
+[2.134s] running install_lib
+[2.147s] copying /home/prajesh/my_ws/build/py_final_project/build/lib/py_final_project/turtle_generator.py -> /home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages/py_final_project
+[2.148s] byte-compiling /home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages/py_final_project/turtle_generator.py to turtle_generator.cpython-310.pyc
+[2.152s] running install_data
+[2.153s] running install_egg_info
+[2.156s] removing '/home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages/py_final_project-0.0.0-py3.10.egg-info' (and everything under it)
+[2.157s] Copying ../../build/py_final_project/py_final_project.egg-info to /home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages/py_final_project-0.0.0-py3.10.egg-info
+[2.157s] running install_scripts
+[2.324s] Installing turtle_controller_node script to /home/prajesh/my_ws/install/py_final_project/lib/py_final_project
+[2.325s] Installing turtle_generator_node script to /home/prajesh/my_ws/install/py_final_project/lib/py_final_project
+[2.326s] writing list of installed files to '/home/prajesh/my_ws/build/py_final_project/install.log'
+[2.458s] Invoked command in '/home/prajesh/my_ws/src/py_final_project' returned '0': PYTHONPATH=/home/prajesh/my_ws/build/py_final_project/prefix_override:/home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_final_project build --build-base /home/prajesh/my_ws/build/py_final_project/build install --record /home/prajesh/my_ws/build/py_final_project/install.log --single-version-externally-managed

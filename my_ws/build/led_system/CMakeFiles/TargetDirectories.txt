@@ -1,0 +1,11 @@
+/home/prajesh/my_ws/build/led_system/CMakeFiles/uninstall.dir
+/home/prajesh/my_ws/build/led_system/CMakeFiles/led_system_uninstall.dir
+/home/prajesh/my_ws/build/led_system/CMakeFiles/led_client.dir
+/home/prajesh/my_ws/build/led_system/CMakeFiles/battery_server.dir
+/home/prajesh/my_ws/build/led_system/CMakeFiles/test.dir
+/home/prajesh/my_ws/build/led_system/CMakeFiles/edit_cache.dir
+/home/prajesh/my_ws/build/led_system/CMakeFiles/rebuild_cache.dir
+/home/prajesh/my_ws/build/led_system/CMakeFiles/list_install_components.dir
+/home/prajesh/my_ws/build/led_system/CMakeFiles/install.dir
+/home/prajesh/my_ws/build/led_system/CMakeFiles/install/local.dir
+/home/prajesh/my_ws/build/led_system/CMakeFiles/install/strip.dir

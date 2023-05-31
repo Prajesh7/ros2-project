@@ -1,0 +1,45 @@
+[0.034s] Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4
+[0.055s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.200s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.224s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.227s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.233s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.242s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.255s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.309s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.311s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.348s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.558s] -- Configuring done
+[0.565s] -- Generating done
+[0.567s] -- Build files have been written to: /home/prajesh/my_ws/build/cpp_test_pkg
+[0.594s] [ 50%] [32mBuilding CXX object CMakeFiles/n_publisher.dir/src/n_publisher.cpp.o[0m
+[2.623s] [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/n_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.623s] [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/n_publisher.cpp:7:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.623s]     7 | int main([01;35m[Kint argc[m[K, char **argv)
+[2.623s]       |          [01;35m[K~~~~^~~~[m[K
+[2.624s] [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/n_publisher.cpp:7:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.624s]     7 | int main(int argc, [01;35m[Kchar **argv[m[K)
+[2.624s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[3.017s] [100%] [32m[1mLinking CXX executable n_publisher[0m
+[3.099s] [100%] Built target n_publisher
+[3.111s] Invoked command in '/home/prajesh/my_ws/build/cpp_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4
+[3.133s] Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_test_pkg
+[3.138s] -- Install configuration: ""
+[3.139s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/lib/cpp_test_pkg/n_publisher
+[3.139s] -- Set runtime path of "/home/prajesh/my_ws/install/cpp_test_pkg/lib/cpp_test_pkg/n_publisher" to ""
+[3.139s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_test_pkg
+[3.140s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_test_pkg
+[3.140s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/ament_prefix_path.sh
+[3.140s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/ament_prefix_path.dsv
+[3.140s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/path.sh
+[3.140s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/path.dsv
+[3.140s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.bash
+[3.140s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.sh
+[3.141s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.zsh
+[3.141s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.dsv
+[3.141s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.dsv
+[3.141s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/packages/cpp_test_pkg
+[3.141s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/cmake/cpp_test_pkgConfig.cmake
+[3.141s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/cmake/cpp_test_pkgConfig-version.cmake
+[3.141s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.xml
+[3.146s] Invoked command in '/home/prajesh/my_ws/build/cpp_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_test_pkg

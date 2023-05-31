@@ -1,0 +1,4 @@
+[console_scripts]
+add_two_int = py_server_test.add_two_int:main
+add_two_int_client = py_server_test.add_two_int_client:main
+

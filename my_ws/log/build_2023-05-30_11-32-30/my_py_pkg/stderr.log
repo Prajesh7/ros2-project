@@ -1,0 +1,5 @@
+  File "/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/hw_status_publisher.py", line 4
+    from "/home/prajesh/my_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status.py" import HardwareStatus
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+

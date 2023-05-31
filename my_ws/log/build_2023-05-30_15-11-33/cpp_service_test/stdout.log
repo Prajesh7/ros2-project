@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/add_int_client.dir/src/add_int_client.cpp.o[0m
+[ 75%] Built target add_int_server
+[100%] [32m[1mLinking CXX executable add_int_client[0m
+[100%] Built target add_int_client

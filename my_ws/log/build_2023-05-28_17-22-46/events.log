@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000164] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000265] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000756] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.011679] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.026409] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.028535] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.029530] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prajesh/my_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/prajesh/my_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'prajesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/prajesh'), ('OLDPWD', '/home/prajesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1895'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/prajesh/my_ws/install:/home/prajesh/tbot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prajesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prajesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/slam:@/tmp/.ICE-unix/1852,unix/slam:/tmp/.ICE-unix/1852'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/118bbcf9_5e7a_40d1_b395_b9fc50a82ae6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JBVU51'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/prajesh/my_ws/install/my_py_pkg:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prajesh/my_ws/build/my_cpp_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.061723] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099674] (-) TimerEvent: {}
+[0.200332] (-) TimerEvent: {}
+[0.209237] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.241395] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.245222] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.252938] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.263154] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.277882] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.301037] (-) TimerEvent: {}
+[0.336054] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.337564] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.367213] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.401789] (-) TimerEvent: {}
+[0.502532] (-) TimerEvent: {}
+[0.603417] (-) TimerEvent: {}
+[0.641778] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.659907] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.661861] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/prajesh/my_ws/build/my_cpp_pkg\n'}
+[0.682265] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node1\x1b[0m\n'}
+[0.682478] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_news_station\x1b[0m\n'}
+[0.693353] (my_cpp_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[0.703500] (my_cpp_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\x1b[0m\n'}
+[0.703688] (-) TimerEvent: {}
+[0.716833] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target cpp_node1\n'}
+[0.758598] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/prajesh/my_ws/build/my_py_pkg/build', 'install', '--record', '/home/prajesh/my_ws/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/prajesh/my_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'prajesh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/prajesh', 'OLDPWD': '/home/prajesh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1895', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/prajesh/my_ws/install:/home/prajesh/tbot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'prajesh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'prajesh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/slam:@/tmp/.ICE-unix/1852,unix/slam:/tmp/.ICE-unix/1852', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/118bbcf9_5e7a_40d1_b395_b9fc50a82ae6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JBVU51', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/prajesh/my_ws/install/my_py_pkg:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/prajesh/my_ws/build/my_py_pkg', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/prajesh/my_ws/build/my_py_pkg/prefix_override:/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[0.804245] (-) TimerEvent: {}
+[0.904725] (-) TimerEvent: {}
+[1.005681] (-) TimerEvent: {}
+[1.061237] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.062517] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[1.063279] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[1.064136] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[1.064353] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[1.064509] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[1.067372] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.069145] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.069715] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[1.069863] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.070546] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[1.071148] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.072909] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.073493] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.075221] (my_py_pkg) StdoutLine: {'line': b"removing '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.080739] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[1.081698] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.105376] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/prajesh/my_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.105693] (-) TimerEvent: {}
+[1.106072] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/prajesh/my_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.106222] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/prajesh/my_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.106578] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/prajesh/my_ws/build/my_py_pkg/install.log'\n"}
+[1.141385] (my_py_pkg) CommandEnded: {'returncode': 0}
+[1.163906] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[1.206150] (-) TimerEvent: {}
+[1.306948] (-) TimerEvent: {}
+[1.407764] (-) TimerEvent: {}
+[1.508885] (-) TimerEvent: {}
+[1.609591] (-) TimerEvent: {}
+[1.710119] (-) TimerEvent: {}
+[1.810847] (-) TimerEvent: {}
+[1.911592] (-) TimerEvent: {}
+[2.012313] (-) TimerEvent: {}
+[2.113259] (-) TimerEvent: {}
+[2.214083] (-) TimerEvent: {}
+[2.314849] (-) TimerEvent: {}
+[2.415756] (-) TimerEvent: {}
+[2.516401] (-) TimerEvent: {}
+[2.617141] (-) TimerEvent: {}
+[2.718316] (-) TimerEvent: {}
+[2.819071] (-) TimerEvent: {}
+[2.919785] (-) TimerEvent: {}
+[3.020510] (-) TimerEvent: {}
+[3.121230] (-) TimerEvent: {}
+[3.222077] (-) TimerEvent: {}
+[3.322773] (-) TimerEvent: {}
+[3.423530] (-) TimerEvent: {}
+[3.524492] (-) TimerEvent: {}
+[3.625195] (-) TimerEvent: {}
+[3.634857] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.635106] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.635201] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.635283] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.635352] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.635436] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.635505] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.635569] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.635633] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.635697] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.635764] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.635844] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prajesh/my_ws/src/my_cpp_pkg/src/smartphone.cpp:3\x1b[m\x1b[K:\n'}
+[3.635910] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prajesh/my_ws/src/my_cpp_pkg/src/smartphone.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Smartphone::sub_fun(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.635977] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prajesh/my_ws/src/my_cpp_pkg/src/smartphone.cpp:16:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktoo many arguments for format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args\x07-Wformat-extra-args\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.636044] (my_cpp_pkg) StderrLine: {'line': b'   16 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"&s"\x1b[m\x1b[K, st);\n'}
+[3.636169] (my_cpp_pkg) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.725664] (-) TimerEvent: {}
+[3.826379] (-) TimerEvent: {}
+[3.927224] (-) TimerEvent: {}
+[4.028460] (-) TimerEvent: {}
+[4.129182] (-) TimerEvent: {}
+[4.230247] (-) TimerEvent: {}
+[4.331159] (-) TimerEvent: {}
+[4.431684] (-) TimerEvent: {}
+[4.448454] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[4.448670] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[4.448747] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:41\x1b[m\x1b[K,\n'}
+[4.448814] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[4.448880] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[4.448944] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[4.449061] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[4.449226] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[4.449319] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prajesh/my_ws/src/my_cpp_pkg/src/smartphone.cpp:1\x1b[m\x1b[K:\n'}
+[4.449419] (my_cpp_pkg) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = rclcpp::Node; _Args = {}; _Tp = rclcpp::Node]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.449547] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = rclcpp::Node; _Args = {}; _Tp = rclcpp::Node; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<rclcpp::Node>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.449753] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.449827] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.449892] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<rclcpp::Node>; _Args = {}; _Tp = rclcpp::Node; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.449956] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<rclcpp::Node>; _Args = {}; _Tp = rclcpp::Node]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.450030] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = rclcpp::Node; _Alloc = std::allocator<rclcpp::Node>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.450094] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = rclcpp::Node; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.450156] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/prajesh/my_ws/src/my_cpp_pkg/src/smartphone.cpp:31:47:\x1b[m\x1b[K   required from here\n'}
+[4.450218] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.450281] (my_cpp_pkg) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[4.450342] (my_cpp_pkg) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.450403] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.450464] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.450543] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.450619] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/prajesh/my_ws/src/my_cpp_pkg/src/smartphone.cpp:3\x1b[m\x1b[K:\n'}
+[4.450690] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.450753] (my_cpp_pkg) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[4.450813] (my_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.450872] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[4.450933] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.451001] (my_cpp_pkg) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[4.451063] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.451123] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[4.451185] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.451247] (my_cpp_pkg) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[4.451306] (my_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.451369] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[4.531907] (-) TimerEvent: {}
+[4.633193] (-) TimerEvent: {}
+[4.733980] (-) TimerEvent: {}
+[4.834388] (-) TimerEvent: {}
+[4.935149] (-) TimerEvent: {}
+[5.035962] (-) TimerEvent: {}
+[5.136632] (-) TimerEvent: {}
+[5.237324] (-) TimerEvent: {}
+[5.337721] (-) TimerEvent: {}
+[5.438433] (-) TimerEvent: {}
+[5.539187] (-) TimerEvent: {}
+[5.639743] (-) TimerEvent: {}
+[5.740462] (-) TimerEvent: {}
+[5.841697] (-) TimerEvent: {}
+[5.942570] (-) TimerEvent: {}
+[5.946042] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable robot_news_station\x1b[0m\n'}
+[6.043251] (-) TimerEvent: {}
+[6.144540] (-) TimerEvent: {}
+[6.164849] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] Built target robot_news_station\n'}
+[6.245203] (-) TimerEvent: {}
+[6.346563] (-) TimerEvent: {}
+[6.447376] (-) TimerEvent: {}
+[6.462489] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/smartphone.dir/build.make:76: CMakeFiles/smartphone.dir/src/smartphone.cpp.o] Error 1\n'}
+[6.462714] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/smartphone.dir/all] Error 2\n'}
+[6.462896] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.465278] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[6.512517] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[6.523507] (-) EventReactorShutdown: {}

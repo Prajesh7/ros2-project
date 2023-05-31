@@ -1,0 +1,5 @@
+[ 66%] Built target cpp_node1
+[ 66%] Built target smartphone
+[ 83%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[100%] [32m[1mLinking CXX executable robot_news_station[0m
+[100%] Built target robot_news_station

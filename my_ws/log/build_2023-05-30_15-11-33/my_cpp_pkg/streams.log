@@ -1,0 +1,5 @@
+[0.013s] Invoking command in '/home/prajesh/my_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4
+[0.129s] [ 25%] Built target cpp_node1
+[0.186s] [ 50%] Built target smartphone
+[0.187s] [ 75%] Built target hw_status_publisher
+[0.215s] [100%] Built target robot_news_station

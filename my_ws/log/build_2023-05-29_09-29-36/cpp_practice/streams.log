@@ -1,0 +1,50 @@
+[0.040s] Invoking command in '/home/prajesh/my_ws/build/cpp_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_practice -- -j4 -l4
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target number_generator[0m
+[0.136s] [ 50%] [32mBuilding CXX object CMakeFiles/number_generator.dir/src/number_generator.cpp.o[0m
+[2.244s] [01m[K/home/prajesh/my_ws/src/cpp_practice/src/number_generator.cpp:10:42:[m[K [01;31m[Kerror: [m[K‘[01m[KInt64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.244s]    10 |         rclcpp::Publisher<std_msgs::msg::[01;31m[KInt64[m[K>::SharedPtr pub;
+[2.244s]       |                                          [01;31m[K^~~~~[m[K
+[2.244s] [01m[K/home/prajesh/my_ws/src/cpp_practice/src/number_generator.cpp:10:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.244s]    10 |         rclcpp::Publisher<std_msgs::msg::Int64[01;31m[K>[m[K::SharedPtr pub;
+[2.244s]       |                                               [01;31m[K^[m[K
+[2.244s] [01m[K/home/prajesh/my_ws/src/cpp_practice/src/number_generator.cpp:10:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.244s]    10 |         rclcpp::Publisher<std_msgs::msg::Int64>::[01;31m[KSharedPtr[m[K pub;
+[2.245s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[2.245s]       |                                                           [32m[K;[m[K
+[2.245s] [01m[K/home/prajesh/my_ws/src/cpp_practice/src/number_generator.cpp:10:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ does not name a type
+[2.245s]    10 |         rclcpp::Publisher<std_msgs::msg::Int64>::SharedPtr [01;31m[Kpub[m[K;
+[2.245s]       |                                                            [01;31m[K^~~[m[K
+[2.246s] [01m[K/home/prajesh/my_ws/src/cpp_practice/src/number_generator.cpp:[m[K In member function ‘[01m[Kvoid Generator::pub_fun()[m[K’:
+[2.246s] [01m[K/home/prajesh/my_ws/src/cpp_practice/src/number_generator.cpp:17:39:[m[K [01;31m[Kerror: [m[K‘[01m[KInt64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.246s]    17 |             auto msg = std_msgs::msg::[01;31m[KInt64[m[K();
+[2.246s]       |                                       [01;31m[K^~~~~[m[K
+[2.250s] [01m[K/home/prajesh/my_ws/src/cpp_practice/src/number_generator.cpp:19:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+[2.250s]    19 |             [01;31m[Kpub[m[K->publish(msg);
+[2.250s]       |             [01;31m[K^~~[m[K
+[2.255s] [01m[K/home/prajesh/my_ws/src/cpp_practice/src/number_generator.cpp:[m[K In constructor ‘[01m[KGenerator::Generator()[m[K’:
+[2.255s] [01m[K/home/prajesh/my_ws/src/cpp_practice/src/number_generator.cpp:25:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+[2.255s]    25 |             [01;31m[Kpub[m[K = this->create_publisher<std_msgs::msg::Int64>("number", 10)
+[2.255s]       |             [01;31m[K^~~[m[K
+[2.256s] [01m[K/home/prajesh/my_ws/src/cpp_practice/src/number_generator.cpp:25:57:[m[K [01;31m[Kerror: [m[K‘[01m[KInt64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.256s]    25 |             pub = this->create_publisher<std_msgs::msg::[01;31m[KInt64[m[K>("number", 10)
+[2.256s]       |                                                         [01;31m[K^~~~~[m[K
+[2.257s] [01m[K/home/prajesh/my_ws/src/cpp_practice/src/number_generator.cpp:25:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGenerator::create_publisher<<expression error> >(const char [7], int)[m[K’
+[2.257s]    25 |           pub = [01;31m[Kthis->create_publisher<std_msgs::msg::Int64>("number", 10)[m[K
+[2.257s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.257s] 
+[2.258s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.258s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.258s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.258s]                  from [01m[K/home/prajesh/my_ws/src/cpp_practice/src/number_generator.cpp:2[m[K:
+[2.258s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[2.258s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[2.258s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.258s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.258s] [01m[K/home/prajesh/my_ws/src/cpp_practice/src/number_generator.cpp:25:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.258s]    25 |           pub = [01;31m[Kthis->create_publisher<std_msgs::msg::Int64>("number", 10)[m[K
+[2.258s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.258s] 
+[2.648s] gmake[2]: *** [CMakeFiles/number_generator.dir/build.make:76: CMakeFiles/number_generator.dir/src/number_generator.cpp.o] Error 1
+[2.648s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/number_generator.dir/all] Error 2
+[2.648s] gmake: *** [Makefile:146: all] Error 2
+[2.650s] Invoked command in '/home/prajesh/my_ws/build/cpp_practice' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_practice -- -j4 -l4

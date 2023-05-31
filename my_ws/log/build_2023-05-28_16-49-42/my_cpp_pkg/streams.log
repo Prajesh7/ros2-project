@@ -1,0 +1,34 @@
+[0.026s] Invoking command in '/home/prajesh/my_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4
+[0.085s] [ 50%] Built target cpp_node1
+[0.090s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[4.527s] [01m[K/home/prajesh/my_ws/src/my_cpp_pkg/src/robot_news_station.cpp:15:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_mags[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd_msgs[m[K’?
+[4.527s]    15 |         rclcpp::Publisher<[01;31m[Kstd_mags[m[K::msg::String>::SharedPtr pub;
+[4.527s]       |                           [01;31m[K^~~~~~~~[m[K
+[4.527s]       |                           [32m[Kstd_msgs[m[K
+[4.527s] [01m[K/home/prajesh/my_ws/src/my_cpp_pkg/src/robot_news_station.cpp:15:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.527s]    15 |         rclcpp::Publisher<std_mags::msg::String[01;31m[K>[m[K::SharedPtr pub;
+[4.527s]       |                                                [01;31m[K^[m[K
+[4.528s] [01m[K/home/prajesh/my_ws/src/my_cpp_pkg/src/robot_news_station.cpp:15:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.528s]    15 |         rclcpp::Publisher<std_mags::msg::String>::[01;31m[KSharedPtr[m[K pub;
+[4.528s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[4.528s]       |                                                            [32m[K;[m[K
+[4.528s] [01m[K/home/prajesh/my_ws/src/my_cpp_pkg/src/robot_news_station.cpp:15:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ does not name a type
+[4.528s]    15 |         rclcpp::Publisher<std_mags::msg::String>::SharedPtr [01;31m[Kpub[m[K;
+[4.528s]       |                                                             [01;31m[K^~~[m[K
+[4.529s] [01m[K/home/prajesh/my_ws/src/my_cpp_pkg/src/robot_news_station.cpp:[m[K In member function ‘[01m[Kvoid MyNode::pub_fun()[m[K’:
+[4.529s] [01m[K/home/prajesh/my_ws/src/my_cpp_pkg/src/robot_news_station.cpp:20:29:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kstring[m[K’?
+[4.529s]    20 |             msg.data = std::[01;31m[KString[m[K("robot cpp news " + std::String(count))
+[4.529s]       |                             [01;31m[K^~~~~~[m[K
+[4.529s]       |                             [32m[Kstring[m[K
+[4.529s] [01m[K/home/prajesh/my_ws/src/my_cpp_pkg/src/robot_news_station.cpp:20:61:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kstring[m[K’?
+[4.529s]    20 |             msg.data = std::String("robot cpp news " + std::[01;31m[KString[m[K(count))
+[4.529s]       |                                                             [01;31m[K^~~~~~[m[K
+[4.529s]       |                                                             [32m[Kstring[m[K
+[4.533s] [01m[K/home/prajesh/my_ws/src/my_cpp_pkg/src/robot_news_station.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[4.534s] [01m[K/home/prajesh/my_ws/src/my_cpp_pkg/src/robot_news_station.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+[4.534s]    29 |             [01;31m[Kpub[m[K = this->create_publisher<std_msgs::msg::String>("robot_news", 10)
+[4.534s]       |             [01;31m[K^~~[m[K
+[5.427s] gmake[2]: *** [CMakeFiles/robot_news_station.dir/build.make:76: CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o] Error 1
+[5.428s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_news_station.dir/all] Error 2
+[5.429s] gmake: *** [Makefile:146: all] Error 2
+[5.430s] Invoked command in '/home/prajesh/my_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4

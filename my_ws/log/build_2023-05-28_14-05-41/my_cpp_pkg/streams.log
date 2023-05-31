@@ -1,0 +1,26 @@
+[0.026s] Invoking command in '/home/prajesh/my_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target cpp_node1[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node1.dir/src/my_first_node.cpp.o[0m
+[4.481s] [100%] [32m[1mLinking CXX executable cpp_node1[0m
+[4.584s] [100%] Built target cpp_node1
+[4.595s] Invoked command in '/home/prajesh/my_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4
+[4.626s] Invoking command in '/home/prajesh/my_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/my_cpp_pkg
+[4.631s] -- Install configuration: ""
+[4.632s] -- Installing: /home/prajesh/my_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node1
+[4.632s] -- Set runtime path of "/home/prajesh/my_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node1" to ""
+[4.632s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[4.633s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[4.633s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[4.633s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[4.633s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[4.633s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[4.633s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[4.633s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[4.633s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[4.634s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[4.634s] -- Installing: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[4.634s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[4.634s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[4.634s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[4.634s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[4.636s] Invoked command in '/home/prajesh/my_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/my_cpp_pkg

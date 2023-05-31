@@ -1,0 +1,7 @@
+[01m[K/home/prajesh/my_ws/src/cpp_practice/src/number_generator.cpp:[m[K In constructor ‘[01m[KGenerator::Generator()[m[K’:
+[01m[K/home/prajesh/my_ws/src/cpp_practice/src/number_generator.cpp:26:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktimer_[m[K’
+   26 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::milliseconds(500),
+      |             [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/number_generator.dir/build.make:76: CMakeFiles/number_generator.dir/src/number_generator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/number_generator.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

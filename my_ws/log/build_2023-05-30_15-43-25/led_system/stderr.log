@@ -1,0 +1,11 @@
+[01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:[m[K In member function ‘[01m[Kvoid BatteryStateClass::client_callback()[m[K’:
+[01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:39:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+   39 |                 [01;31m[Kauto[m[K future = client->async_send_request(srv);
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:59:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+   59 |                 [01;31m[Kauto[m[K future = client->async_send_request(srv);
+      |                 [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/led_client.dir/build.make:76: CMakeFiles/led_client.dir/src/led_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/led_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

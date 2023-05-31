@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e62b504cfb05ac6433b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_cpp_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_node1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_node1-Debug-930562f6430417baef82.json",
+					"name" : "cpp_node1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw_status_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw_status_publisher-Debug-eba30f3916f2cf020526.json",
+					"name" : "hw_status_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_cpp_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_cpp_pkg_uninstall-Debug-9ec55e6b3be50157e254.json",
+					"name" : "my_cpp_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_news_station::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_news_station-Debug-904e5956391860300bd1.json",
+					"name" : "robot_news_station",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smartphone::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smartphone-Debug-22e630e0068ece55199b.json",
+					"name" : "smartphone",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-6daccc70776f39ab48fd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/prajesh/my_ws/build",
+		"source" : "/home/prajesh/my_ws/src/my_cpp_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[ 50%] Built target number_publisher
+[01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid MyNode::sub_callback(std_msgs::msg::Int64)[m[K’:
+[01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/number_counter.cpp:16:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   16 |         void sub_callback([01;35m[Kstd_msgs::msg::Int64 msg[m[K)
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[ 50%] [32m[1mLinking CXX executable number_counter[0m
+[ 50%] Built target number_counter
+-- Install configuration: ""
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/lib/cpp_test_pkg/number_publisher
+-- Set runtime path of "/home/prajesh/my_ws/install/cpp_test_pkg/lib/cpp_test_pkg/number_publisher" to ""
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/lib/cpp_test_pkg/number_counter
+-- Set runtime path of "/home/prajesh/my_ws/install/cpp_test_pkg/lib/cpp_test_pkg/number_counter" to ""
+-- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_test_pkg
+-- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_test_pkg
+-- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/path.sh
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/path.dsv
+-- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.bash
+-- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.sh
+-- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.zsh
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.dsv
+-- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.dsv
+-- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/packages/cpp_test_pkg
+-- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/cmake/cpp_test_pkgConfig.cmake
+-- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/cmake/cpp_test_pkgConfig-version.cmake
+-- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.xml

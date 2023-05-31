@@ -1,0 +1,10 @@
+[0.044s] Invoking command in '/home/prajesh/my_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4
+[0.199s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node1.dir/src/my_first_node.cpp.o[0m
+[0.386s] [01m[K/home/prajesh/my_ws/src/my_cpp_pkg/src/my_first_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Krclcpp.hpp: No such file or directory
+[0.387s]     5 | #include [01;31m[K"rclcpp.hpp"[m[K
+[0.387s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.387s] compilation terminated.
+[0.389s] gmake[2]: *** [CMakeFiles/cpp_node1.dir/build.make:76: CMakeFiles/cpp_node1.dir/src/my_first_node.cpp.o] Error 1
+[0.391s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node1.dir/all] Error 2
+[0.391s] gmake: *** [Makefile:146: all] Error 2
+[0.654s] Invoked command in '/home/prajesh/my_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4

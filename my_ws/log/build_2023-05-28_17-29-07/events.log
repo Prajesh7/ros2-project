@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.000317] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000459] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000516] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.010131] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.020561] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.021701] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.021758] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prajesh/my_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/prajesh/my_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'prajesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/prajesh'), ('OLDPWD', '/home/prajesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1895'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/prajesh/my_ws/install:/home/prajesh/tbot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prajesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prajesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/slam:@/tmp/.ICE-unix/1852,unix/slam:/tmp/.ICE-unix/1852'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/118bbcf9_5e7a_40d1_b395_b9fc50a82ae6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JBVU51'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/prajesh/my_ws/install/my_py_pkg:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prajesh/my_ws/build/my_cpp_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.058753] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target smartphone\x1b[0m\n'}
+[0.077432] (my_cpp_pkg) StdoutLine: {'line': b'[ 33%] Built target robot_news_station\n'}
+[0.081093] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target cpp_node1\n'}
+[0.083625] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[0.098287] (-) TimerEvent: {}
+[0.199032] (-) TimerEvent: {}
+[0.299922] (-) TimerEvent: {}
+[0.403394] (-) TimerEvent: {}
+[0.504152] (-) TimerEvent: {}
+[0.604971] (-) TimerEvent: {}
+[0.615246] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/prajesh/my_ws/build/my_py_pkg/build', 'install', '--record', '/home/prajesh/my_ws/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/prajesh/my_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'prajesh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/prajesh', 'OLDPWD': '/home/prajesh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1895', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/prajesh/my_ws/install:/home/prajesh/tbot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'prajesh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'prajesh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/slam:@/tmp/.ICE-unix/1852,unix/slam:/tmp/.ICE-unix/1852', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/118bbcf9_5e7a_40d1_b395_b9fc50a82ae6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JBVU51', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/prajesh/my_ws/install/my_py_pkg:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/prajesh/my_ws/build/my_py_pkg', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/prajesh/my_ws/build/my_py_pkg/prefix_override:/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[0.705571] (-) TimerEvent: {}
+[0.806338] (-) TimerEvent: {}
+[0.852906] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.853979] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[0.854697] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[0.855260] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[0.855586] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[0.855643] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[0.857099] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.857667] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[0.858092] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[0.858396] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.858457] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[0.858819] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.859482] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.859906] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.861103] (my_py_pkg) StdoutLine: {'line': b"removing '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.862355] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[0.862440] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.877285] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/prajesh/my_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.878146] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/prajesh/my_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.878296] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/prajesh/my_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[0.878882] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/prajesh/my_ws/build/my_py_pkg/install.log'\n"}
+[0.901804] (my_py_pkg) CommandEnded: {'returncode': 0}
+[0.908163] (-) TimerEvent: {}
+[0.915124] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[1.008812] (-) TimerEvent: {}
+[1.109571] (-) TimerEvent: {}
+[1.210285] (-) TimerEvent: {}
+[1.310975] (-) TimerEvent: {}
+[1.411672] (-) TimerEvent: {}
+[1.512446] (-) TimerEvent: {}
+[1.613172] (-) TimerEvent: {}
+[1.713931] (-) TimerEvent: {}
+[1.814627] (-) TimerEvent: {}
+[1.915486] (-) TimerEvent: {}
+[2.016229] (-) TimerEvent: {}
+[2.116860] (-) TimerEvent: {}
+[2.217612] (-) TimerEvent: {}
+[2.318317] (-) TimerEvent: {}
+[2.419046] (-) TimerEvent: {}
+[2.519808] (-) TimerEvent: {}
+[2.620560] (-) TimerEvent: {}
+[2.721200] (-) TimerEvent: {}
+[2.821941] (-) TimerEvent: {}
+[2.922669] (-) TimerEvent: {}
+[3.023436] (-) TimerEvent: {}
+[3.124244] (-) TimerEvent: {}
+[3.224867] (-) TimerEvent: {}
+[3.325593] (-) TimerEvent: {}
+[3.426448] (-) TimerEvent: {}
+[3.527100] (-) TimerEvent: {}
+[3.627838] (-) TimerEvent: {}
+[3.728570] (-) TimerEvent: {}
+[3.829278] (-) TimerEvent: {}
+[3.930075] (-) TimerEvent: {}
+[4.030853] (-) TimerEvent: {}
+[4.131461] (-) TimerEvent: {}
+[4.232209] (-) TimerEvent: {}
+[4.332981] (-) TimerEvent: {}
+[4.433674] (-) TimerEvent: {}
+[4.534418] (-) TimerEvent: {}
+[4.635437] (-) TimerEvent: {}
+[4.736353] (-) TimerEvent: {}
+[4.837269] (-) TimerEvent: {}
+[4.938457] (-) TimerEvent: {}
+[5.039370] (-) TimerEvent: {}
+[5.140278] (-) TimerEvent: {}
+[5.241423] (-) TimerEvent: {}
+[5.342416] (-) TimerEvent: {}
+[5.442726] (-) TimerEvent: {}
+[5.543433] (-) TimerEvent: {}
+[5.644657] (-) TimerEvent: {}
+[5.745921] (-) TimerEvent: {}
+[5.846702] (-) TimerEvent: {}
+[5.947378] (-) TimerEvent: {}
+[6.048266] (-) TimerEvent: {}
+[6.149857] (-) TimerEvent: {}
+[6.251071] (-) TimerEvent: {}
+[6.351835] (-) TimerEvent: {}
+[6.452698] (-) TimerEvent: {}
+[6.553399] (-) TimerEvent: {}
+[6.654631] (-) TimerEvent: {}
+[6.755371] (-) TimerEvent: {}
+[6.856062] (-) TimerEvent: {}
+[6.956496] (-) TimerEvent: {}
+[7.057277] (-) TimerEvent: {}
+[7.158538] (-) TimerEvent: {}
+[7.259241] (-) TimerEvent: {}
+[7.360019] (-) TimerEvent: {}
+[7.460681] (-) TimerEvent: {}
+[7.561410] (-) TimerEvent: {}
+[7.662142] (-) TimerEvent: {}
+[7.762863] (-) TimerEvent: {}
+[7.864309] (-) TimerEvent: {}
+[7.965415] (-) TimerEvent: {}
+[8.066162] (-) TimerEvent: {}
+[8.167118] (-) TimerEvent: {}
+[8.268078] (-) TimerEvent: {}
+[8.368872] (-) TimerEvent: {}
+[8.469541] (-) TimerEvent: {}
+[8.504193] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable smartphone\x1b[0m\n'}
+[8.570438] (-) TimerEvent: {}
+[8.671634] (-) TimerEvent: {}
+[8.772358] (-) TimerEvent: {}
+[8.859308] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target smartphone\n'}
+[8.868711] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.873114] (-) TimerEvent: {}
+[8.899110] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[8.908522] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/prajesh/my_ws/build/my_cpp_pkg'], 'cwd': '/home/prajesh/my_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'prajesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/prajesh'), ('OLDPWD', '/home/prajesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1895'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/prajesh/my_ws/install:/home/prajesh/tbot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prajesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prajesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/slam:@/tmp/.ICE-unix/1852,unix/slam:/tmp/.ICE-unix/1852'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/118bbcf9_5e7a_40d1_b395_b9fc50a82ae6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JBVU51'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/prajesh/my_ws/install/my_py_pkg:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prajesh/my_ws/build/my_cpp_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[8.917437] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.919020] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node1\n'}
+[8.919394] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[8.919739] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/prajesh/my_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[8.927126] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/prajesh/my_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""\n'}
+[8.927422] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[8.927532] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[8.927623] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[8.927715] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[8.927766] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[8.927820] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[8.927977] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[8.928126] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[8.928246] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[8.928363] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[8.928442] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[8.928557] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[8.928696] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[8.928773] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[8.928907] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[8.932157] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.974906] (-) TimerEvent: {}
+[8.983203] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[8.984146] (-) EventReactorShutdown: {}

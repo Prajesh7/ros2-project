@@ -1,0 +1,8 @@
+[01m[K/home/prajesh/my_ws/src/cpp_service_test/src/add_int_client.cpp:[m[K In member function ‘[01m[Kvoid AddIntsClient::call_service(int, int)[m[K’:
+[01m[K/home/prajesh/my_ws/src/cpp_service_test/src/add_int_client.cpp:34:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Client<example_interfaces::srv::AddTwoInts>[m[K’ {aka ‘[01m[Kclass rclcpp::Client<example_interfaces::srv::AddTwoInts>[m[K’} has no member named ‘[01m[Kasync_sed_request[m[K’; did you mean ‘[01m[Kasync_send_request[m[K’?
+   34 |             auto future = client->[01;31m[Kasync_sed_request[m[K(req);
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                   [32m[Kasync_send_request[m[K
+gmake[2]: *** [CMakeFiles/add_int_client.dir/build.make:76: CMakeFiles/add_int_client.dir/src/add_int_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/add_int_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

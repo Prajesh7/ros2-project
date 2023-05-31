@@ -1,0 +1,26 @@
+[0.032s] Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[0.124s] [ 50%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_pub.cpp.o[0m
+[3.943s] [ 50%] [32m[1mLinking CXX executable number_publisher[0m
+[4.083s] [ 50%] Built target number_publisher
+[4.094s] Invoked command in '/home/prajesh/my_ws/build/cpp_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4
+[4.116s] Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_test_pkg
+[4.122s] -- Install configuration: ""
+[4.122s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/lib/cpp_test_pkg/number_publisher
+[4.124s] -- Set runtime path of "/home/prajesh/my_ws/install/cpp_test_pkg/lib/cpp_test_pkg/number_publisher" to ""
+[4.125s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_test_pkg
+[4.125s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_test_pkg
+[4.126s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/ament_prefix_path.sh
+[4.130s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/ament_prefix_path.dsv
+[4.131s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/path.sh
+[4.133s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/environment/path.dsv
+[4.134s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.bash
+[4.137s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.sh
+[4.138s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.zsh
+[4.138s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/local_setup.dsv
+[4.138s] -- Installing: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.dsv
+[4.139s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/ament_index/resource_index/packages/cpp_test_pkg
+[4.140s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/cmake/cpp_test_pkgConfig.cmake
+[4.141s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/cmake/cpp_test_pkgConfig-version.cmake
+[4.141s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_test_pkg/share/cpp_test_pkg/package.xml
+[4.141s] Invoked command in '/home/prajesh/my_ws/build/cpp_test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_test_pkg

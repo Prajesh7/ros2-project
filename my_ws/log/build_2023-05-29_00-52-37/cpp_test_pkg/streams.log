@@ -1,0 +1,12 @@
+[0.036s] Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[0.115s] [ 50%] Built target number_publisher
+[0.275s] [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/number_counter.cpp:3:10:[m[K [01;31m[Kfatal error: [m[K/opt/ros/humble/include/std_msgs/msg/int64.hpp: No such file or directory
+[0.276s]     3 | #include [01;31m[K"/opt/ros/humble/include/std_msgs/msg/int64.hpp"[m[K
+[0.276s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.276s] compilation terminated.
+[0.284s] gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+[0.284s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/number_counter.dir/all] Error 2
+[0.284s] gmake: *** [Makefile:146: all] Error 2
+[0.313s] Invoked command in '/home/prajesh/my_ws/build/cpp_test_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4

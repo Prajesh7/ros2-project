@@ -1,0 +1,24 @@
+[0.035s] Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4
+[0.054s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.193s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.216s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.218s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.223s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.298s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.299s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.325s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.563s] -- Configuring done
+[0.589s] -- Generating done
+[0.590s] -- Build files have been written to: /home/prajesh/my_ws/build/cpp_test_pkg
+[0.621s] [35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[0.638s] [ 50%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_pub.cpp.o[0m
+[0.656s] [ 50%] [32m[1mLinking CXX executable number_publisher[0m
+[0.706s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.706s] (.text+0x1b): undefined reference to `main'
+[0.707s] collect2: error: ld returned 1 exit status
+[0.709s] gmake[2]: *** [CMakeFiles/number_publisher.dir/build.make:159: number_publisher] Error 1
+[0.709s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/number_publisher.dir/all] Error 2
+[0.709s] gmake: *** [Makefile:146: all] Error 2
+[0.712s] Invoked command in '/home/prajesh/my_ws/build/cpp_test_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4

@@ -1,0 +1,24 @@
+[0.039s] Invoking command in '/home/prajesh/my_ws/build/cpp_service_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_service_test -- -j4 -l4
+[0.135s] [ 50%] Built target add_int_server
+[0.147s] [100%] Built target add_int_client
+[0.188s] Invoked command in '/home/prajesh/my_ws/build/cpp_service_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_service_test -- -j4 -l4
+[0.255s] Invoking command in '/home/prajesh/my_ws/build/cpp_service_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_service_test
+[0.265s] -- Install configuration: ""
+[0.265s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/lib/cpp_service_test/add_int_server
+[0.267s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/lib/cpp_service_test/add_int_client
+[0.267s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/share/ament_index/resource_index/package_run_dependencies/cpp_service_test
+[0.268s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/share/ament_index/resource_index/parent_prefix_path/cpp_service_test
+[0.268s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/environment/ament_prefix_path.sh
+[0.269s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/environment/ament_prefix_path.dsv
+[0.270s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/environment/path.sh
+[0.270s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/environment/path.dsv
+[0.271s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/local_setup.bash
+[0.271s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/local_setup.sh
+[0.272s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/local_setup.zsh
+[0.273s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/local_setup.dsv
+[0.273s] -- Installing: /home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/package.dsv
+[0.273s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/share/ament_index/resource_index/packages/cpp_service_test
+[0.275s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/cmake/cpp_service_testConfig.cmake
+[0.275s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/cmake/cpp_service_testConfig-version.cmake
+[0.276s] -- Up-to-date: /home/prajesh/my_ws/install/cpp_service_test/share/cpp_service_test/package.xml
+[0.331s] Invoked command in '/home/prajesh/my_ws/build/cpp_service_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/cpp_service_test

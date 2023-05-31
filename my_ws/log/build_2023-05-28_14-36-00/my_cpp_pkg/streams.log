@@ -1,0 +1,25 @@
+[0.028s] Invoking command in '/home/prajesh/my_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4
+[0.054s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.261s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.286s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.288s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.293s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.302s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.319s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.374s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.375s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.400s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.615s] -- Configuring done
+[0.624s] -- Generating done
+[0.626s] -- Build files have been written to: /home/prajesh/my_ws/build/my_cpp_pkg
+[0.652s] [35m[1mConsolidate compiler generated dependencies of target cpp_node1[0m
+[0.663s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[0.667s] [ 75%] Built target cpp_node1
+[0.838s] [01m[K/home/prajesh/my_ws/src/my_cpp_pkg/src/robot_news_station.cpp:4:10:[m[K [01;31m[Kfatal error: [m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/String.hpp: No such file or directory
+[0.838s]     4 | #include [01;31m[K"/opt/ros/humble/include/std_msgs/std_msgs/msg/String.hpp"[m[K
+[0.838s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.838s] compilation terminated.
+[0.841s] gmake[2]: *** [CMakeFiles/robot_news_station.dir/build.make:76: CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o] Error 1
+[0.841s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_news_station.dir/all] Error 2
+[0.841s] gmake: *** [Makefile:146: all] Error 2
+[0.843s] Invoked command in '/home/prajesh/my_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4

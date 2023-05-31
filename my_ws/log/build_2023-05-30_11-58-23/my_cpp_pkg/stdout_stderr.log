@@ -1,0 +1,7 @@
+[ 25%] Built target cpp_node1
+[35m[1mConsolidate compiler generated dependencies of target hw_status_publisher[0m
+[ 50%] Built target robot_news_station
+[ 75%] Built target smartphone
+[ 87%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hw_status_publisher[0m
+[100%] Built target hw_status_publisher

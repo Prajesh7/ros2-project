@@ -1,0 +1,6 @@
+[01m[K/home/prajesh/my_ws/src/cpp_practice/src/add_cpp.cpp:9:28:[m[K [01;31m[Kerror: [m[K‘[01m[KShardPtr[m[K’ in ‘[01m[Kclass rclcpp::TimerBase[m[K’ does not name a type
+    9 |         rclcpp::TimerBase::[01;31m[KShardPtr[m[K timer_;
+      |                            [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/add_cpp.dir/build.make:76: CMakeFiles/add_cpp.dir/src/add_cpp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/add_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

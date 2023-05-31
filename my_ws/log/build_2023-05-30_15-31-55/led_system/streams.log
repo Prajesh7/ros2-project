@@ -1,0 +1,152 @@
+[0.036s] Invoking command in '/home/prajesh/my_ws/build/led_system': AMENT_PREFIX_PATH=/home/prajesh/my_ws/install/battery_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/prajesh/my_ws/install/battery_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/prajesh/my_ws/build/led_system -- -j4 -l4
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target led_client[0m
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target battery_server[0m
+[0.146s] [ 25%] [32mBuilding CXX object CMakeFiles/led_client.dir/src/led_client.cpp.o[0m
+[0.146s] [ 50%] [32mBuilding CXX object CMakeFiles/battery_server.dir/src/battery_server.cpp.o[0m
+[2.586s] [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:[m[K In member function ‘[01m[Kvoid BatteryStateClass::client_callback()[m[K’:
+[2.586s] [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:34:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct battery_interfaces::srv::BatteryStatus[m[K’ has no member named ‘[01m[Kled_number[m[K’
+[2.586s]    34 |                 srv.[01;31m[Kled_number[m[K = 2;
+[2.587s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[2.587s] [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:35:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct battery_interfaces::srv::BatteryStatus[m[K’ has no member named ‘[01m[Kstate[m[K’
+[2.587s]    35 |                 srv.[01;31m[Kstate[m[K = true;
+[2.587s]       |                     [01;31m[K^~~~~[m[K
+[2.587s] [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:39:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<battery_interfaces::srv::BatteryStatus>::async_send_request(battery_interfaces::srv::BatteryStatus&)[m[K’
+[2.587s]    39 |                 auto future = [01;31m[Kclient->async_send_request(srv)[m[K;
+[2.587s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.589s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.590s]                  from [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:2[m[K:
+[2.590s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<battery_interfaces::srv::BatteryStatus_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <anonymous>; ServiceT = battery_interfaces::srv::BatteryStatus][m[K’
+[2.590s]   643 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[2.590s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.590s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.590s] [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:39:57:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.590s]    39 |                 auto future = [01;36m[Kclient->async_send_request(srv)[m[K;
+[2.590s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.590s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.591s]                  from [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:2[m[K:
+[2.591s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<battery_interfaces::srv::BatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_interfaces::srv::BatteryStatus_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <anonymous>; ServiceT = battery_interfaces::srv::BatteryStatus][m[K’
+[2.591s]   674 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[2.591s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.591s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.591s] [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:39:57:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.591s]    39 |                 auto future = [01;36m[Kclient->async_send_request(srv)[m[K;
+[2.591s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.591s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.592s]                  from [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:2[m[K:
+[2.592s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = battery_interfaces::srv::BatteryStatus; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<battery_interfaces::srv::BatteryStatus_Request_<std::allocator<void> > >][m[K’
+[2.592s]   608 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+[2.592s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.592s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kbattery_interfaces::srv::BatteryStatus[m[K’ to ‘[01m[Krclcpp::Client<battery_interfaces::srv::BatteryStatus>::SharedRequest[m[K’ {aka ‘[01m[Kstd::shared_ptr<battery_interfaces::srv::BatteryStatus_Request_<std::allocator<void> > >[m[K’}
+[2.592s]   608 |   async_send_request([01;36m[KSharedRequest request[m[K)
+[2.592s]       |                      [01;36m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[2.592s] [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:54:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct battery_interfaces::srv::BatteryStatus[m[K’ has no member named ‘[01m[Kled_number[m[K’
+[2.592s]    54 |                 srv.[01;31m[Kled_number[m[K = 2;
+[2.592s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[2.592s] [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:55:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct battery_interfaces::srv::BatteryStatus[m[K’ has no member named ‘[01m[Kstate[m[K’
+[2.592s]    55 |                 srv.[01;31m[Kstate[m[K = false;
+[2.592s]       |                     [01;31m[K^~~~~[m[K
+[2.592s] [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:59:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<battery_interfaces::srv::BatteryStatus>::async_send_request(battery_interfaces::srv::BatteryStatus&)[m[K’
+[2.592s]    59 |                 auto future = [01;31m[Kclient->async_send_request(srv)[m[K;
+[2.592s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.593s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.593s]                  from [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:2[m[K:
+[2.593s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<battery_interfaces::srv::BatteryStatus_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <anonymous>; ServiceT = battery_interfaces::srv::BatteryStatus][m[K’
+[2.593s]   643 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[2.593s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.593s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.594s] [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:59:57:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.594s]    59 |                 auto future = [01;36m[Kclient->async_send_request(srv)[m[K;
+[2.602s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.602s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.602s]                  from [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:2[m[K:
+[2.602s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<battery_interfaces::srv::BatteryStatus_Request_<std::allocator<void> > >, std::shared_ptr<battery_interfaces::srv::BatteryStatus_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <anonymous>; ServiceT = battery_interfaces::srv::BatteryStatus][m[K’
+[2.602s]   674 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[2.602s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.602s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.602s] [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:59:57:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.603s]    59 |                 auto future = [01;36m[Kclient->async_send_request(srv)[m[K;
+[2.603s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.603s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.603s]                  from [01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:2[m[K:
+[2.603s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = battery_interfaces::srv::BatteryStatus; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<battery_interfaces::srv::BatteryStatus_Request_<std::allocator<void> > >][m[K’
+[2.603s]   608 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+[2.603s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.603s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kbattery_interfaces::srv::BatteryStatus[m[K’ to ‘[01m[Krclcpp::Client<battery_interfaces::srv::BatteryStatus>::SharedRequest[m[K’ {aka ‘[01m[Kstd::shared_ptr<battery_interfaces::srv::BatteryStatus_Request_<std::allocator<void> > >[m[K’}
+[2.603s]   608 |   async_send_request([01;36m[KSharedRequest request[m[K)
+[2.603s]       |                      [01;36m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[2.644s] [01m[K/home/prajesh/my_ws/src/led_system/src/battery_server.cpp:[m[K In member function ‘[01m[Kvoid BatteryController::server_callback(battery_interfaces::srv::BatteryStatus_Request_<std::allocator<void> >::SharedPtr, battery_interfaces::srv::BatteryStatus_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.644s] [01m[K/home/prajesh/my_ws/src/led_system/src/battery_server.cpp:32:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct battery_interfaces::srv::BatteryStatus_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct battery_interfaces::srv::BatteryStatus_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kles_number[m[K’; did you mean ‘[01m[Kled_number[m[K’?
+[2.644s]    32 |                 if(req->[01;31m[Kles_number[m[K == 0)
+[2.644s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[2.644s]       |                         [32m[Kled_number[m[K
+[2.644s] [01m[K/home/prajesh/my_ws/src/led_system/src/battery_server.cpp:38:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct battery_interfaces::srv::BatteryStatus_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct battery_interfaces::srv::BatteryStatus_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kles_number[m[K’; did you mean ‘[01m[Kled_number[m[K’?
+[2.644s]    38 |                 if(req->[01;31m[Kles_number[m[K == 1)
+[2.644s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[2.644s]       |                         [32m[Kled_number[m[K
+[2.644s] [01m[K/home/prajesh/my_ws/src/led_system/src/battery_server.cpp:44:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct battery_interfaces::srv::BatteryStatus_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct battery_interfaces::srv::BatteryStatus_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kles_number[m[K’; did you mean ‘[01m[Kled_number[m[K’?
+[2.644s]    44 |                 if(req->[01;31m[Kles_number[m[K == 2)
+[2.644s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[2.645s]       |                         [32m[Kled_number[m[K
+[2.645s] [01m[K/home/prajesh/my_ws/src/led_system/src/battery_server.cpp:[m[K At global scope:
+[2.645s] [01m[K/home/prajesh/my_ws/src/led_system/src/battery_server.cpp:64:6:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kint[m[K’
+[2.645s]    64 | int ([01;31m[Kint[m[K argc, char **argv)
+[2.645s]       |      [01;31m[K^~~[m[K
+[2.645s] [01m[K/home/prajesh/my_ws/src/led_system/src/battery_server.cpp:64:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kint[m[K’
+[2.645s]    64 | int [34m[K([m[K[01;31m[Ki[m[K[32m[Knt[m[K argc, char **argv)
+[2.645s]       |     [34m[K~[m[K[01;31m[K^[m[K[32m[K~~[m[K
+[2.645s]       |      [32m[K)[m[K
+[3.138s] gmake[2]: *** [CMakeFiles/led_client.dir/build.make:76: CMakeFiles/led_client.dir/src/led_client.cpp.o] Error 1
+[3.138s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/led_client.dir/all] Error 2
+[3.138s] gmake[1]: *** Waiting for unfinished jobs....
+[3.436s] gmake[2]: *** [CMakeFiles/battery_server.dir/build.make:76: CMakeFiles/battery_server.dir/src/battery_server.cpp.o] Error 1
+[3.436s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/battery_server.dir/all] Error 2
+[3.436s] gmake: *** [Makefile:146: all] Error 2
+[3.438s] Invoked command in '/home/prajesh/my_ws/build/led_system' returned '2': AMENT_PREFIX_PATH=/home/prajesh/my_ws/install/battery_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prajesh/my_ws/install/battery_interfaces:/home/prajesh/my_ws/install/my_robot_interfaces:/home/prajesh/my_ws/install/my_cpp_pkg:/home/prajesh/my_ws/install/cpp_test_pkg:/home/prajesh/my_ws/install/cpp_service_test:/home/prajesh/my_ws/install/cpp_practice:/home/prajesh/tbot_ws/install/turtlebot3_simulations:/home/prajesh/tbot_ws/install/turtlebot3_gazebo:/home/prajesh/tbot_ws/install/turtlebot3_fake_node:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/prajesh/my_ws/install/battery_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/prajesh/my_ws/build/led_system -- -j4 -l4

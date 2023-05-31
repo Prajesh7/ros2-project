@@ -1,0 +1,27 @@
+[0.745s] Invoking command in '/home/prajesh/my_ws/src/my_py_pkg': PYTHONPATH=/home/prajesh/my_ws/build/my_py_pkg/prefix_override:/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/prajesh/my_ws/build/my_py_pkg/build install --record /home/prajesh/my_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[0.960s] running egg_info
+[0.961s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.961s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.962s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.963s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.963s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.965s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.966s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.966s] running build
+[0.966s] running build_py
+[0.967s] running install
+[0.968s] running install_lib
+[0.969s] running install_data
+[0.970s] running install_egg_info
+[0.971s] removing '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.971s] error removing /home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info: [Errno 13] Permission denied: '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/requires.txt'
+[0.971s] error removing /home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info: [Errno 13] Permission denied: '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/zip-safe'
+[0.971s] error removing /home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info: [Errno 13] Permission denied: '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/SOURCES.txt'
+[0.971s] error removing /home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info: [Errno 13] Permission denied: '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/top_level.txt'
+[0.971s] error removing /home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info: [Errno 13] Permission denied: '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/dependency_links.txt'
+[0.972s] error removing /home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info: [Errno 13] Permission denied: '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/PKG-INFO'
+[0.972s] error removing /home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info: [Errno 13] Permission denied: '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/entry_points.txt'
+[0.972s] error removing /home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info: [Errno 39] Directory not empty: '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info'
+[0.972s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.973s] error: [Errno 13] Permission denied: '/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info/requires.txt'
+[0.986s] Invoked command in '/home/prajesh/my_ws/src/my_py_pkg' returned '1': PYTHONPATH=/home/prajesh/my_ws/build/my_py_pkg/prefix_override:/home/prajesh/my_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/prajesh/my_ws/build/my_py_pkg/build install --record /home/prajesh/my_ws/build/my_py_pkg/install.log --single-version-externally-managed

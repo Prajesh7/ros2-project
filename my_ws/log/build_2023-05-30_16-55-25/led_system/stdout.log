@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target led_client[0m
+[ 50%] Built target led_client
+[ 75%] [32mBuilding CXX object CMakeFiles/battery_server.dir/src/battery_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable battery_server[0m
+[100%] Built target battery_server
+-- Install configuration: ""
+-- Up-to-date: /home/prajesh/my_ws/install/led_system/lib/led_system/led_client
+-- Installing: /home/prajesh/my_ws/install/led_system/lib/led_system/battery_server
+-- Set runtime path of "/home/prajesh/my_ws/install/led_system/lib/led_system/battery_server" to ""
+-- Up-to-date: /home/prajesh/my_ws/install/led_system/share/ament_index/resource_index/package_run_dependencies/led_system
+-- Up-to-date: /home/prajesh/my_ws/install/led_system/share/ament_index/resource_index/parent_prefix_path/led_system
+-- Up-to-date: /home/prajesh/my_ws/install/led_system/share/led_system/environment/ament_prefix_path.sh
+-- Up-to-date: /home/prajesh/my_ws/install/led_system/share/led_system/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/prajesh/my_ws/install/led_system/share/led_system/environment/path.sh
+-- Up-to-date: /home/prajesh/my_ws/install/led_system/share/led_system/environment/path.dsv
+-- Up-to-date: /home/prajesh/my_ws/install/led_system/share/led_system/local_setup.bash
+-- Up-to-date: /home/prajesh/my_ws/install/led_system/share/led_system/local_setup.sh
+-- Up-to-date: /home/prajesh/my_ws/install/led_system/share/led_system/local_setup.zsh
+-- Up-to-date: /home/prajesh/my_ws/install/led_system/share/led_system/local_setup.dsv
+-- Installing: /home/prajesh/my_ws/install/led_system/share/led_system/package.dsv
+-- Up-to-date: /home/prajesh/my_ws/install/led_system/share/ament_index/resource_index/packages/led_system
+-- Up-to-date: /home/prajesh/my_ws/install/led_system/share/led_system/cmake/led_systemConfig.cmake
+-- Up-to-date: /home/prajesh/my_ws/install/led_system/share/led_system/cmake/led_systemConfig-version.cmake
+-- Up-to-date: /home/prajesh/my_ws/install/led_system/share/led_system/package.xml

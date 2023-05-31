@@ -1,0 +1,5 @@
+  File "/home/prajesh/my_ws/install/py_final_project/lib/python3.10/site-packages/py_final_project/turtle_generator.py", line 88
+    del self.alive_turtles_(i)
+        ^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot delete function call
+

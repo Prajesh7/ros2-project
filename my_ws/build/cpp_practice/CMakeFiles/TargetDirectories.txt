@@ -1,0 +1,11 @@
+/home/prajesh/my_ws/build/cpp_practice/CMakeFiles/uninstall.dir
+/home/prajesh/my_ws/build/cpp_practice/CMakeFiles/cpp_practice_uninstall.dir
+/home/prajesh/my_ws/build/cpp_practice/CMakeFiles/number_generator.dir
+/home/prajesh/my_ws/build/cpp_practice/CMakeFiles/add_cpp.dir
+/home/prajesh/my_ws/build/cpp_practice/CMakeFiles/test.dir
+/home/prajesh/my_ws/build/cpp_practice/CMakeFiles/edit_cache.dir
+/home/prajesh/my_ws/build/cpp_practice/CMakeFiles/rebuild_cache.dir
+/home/prajesh/my_ws/build/cpp_practice/CMakeFiles/list_install_components.dir
+/home/prajesh/my_ws/build/cpp_practice/CMakeFiles/install.dir
+/home/prajesh/my_ws/build/cpp_practice/CMakeFiles/install/local.dir
+/home/prajesh/my_ws/build/cpp_practice/CMakeFiles/install/strip.dir

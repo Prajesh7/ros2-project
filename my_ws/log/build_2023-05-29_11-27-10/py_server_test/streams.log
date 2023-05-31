@@ -1,0 +1,33 @@
+[1.054s] Invoking command in '/home/prajesh/my_ws/src/py_server_test': PYTHONPATH=/home/prajesh/my_ws/build/py_server_test/prefix_override:/home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_server_test build --build-base /home/prajesh/my_ws/build/py_server_test/build install --record /home/prajesh/my_ws/build/py_server_test/install.log --single-version-externally-managed
+[1.377s] running egg_info
+[1.378s] creating ../../build/py_server_test/py_server_test.egg-info
+[1.378s] writing ../../build/py_server_test/py_server_test.egg-info/PKG-INFO
+[1.378s] writing dependency_links to ../../build/py_server_test/py_server_test.egg-info/dependency_links.txt
+[1.379s] writing entry points to ../../build/py_server_test/py_server_test.egg-info/entry_points.txt
+[1.379s] writing requirements to ../../build/py_server_test/py_server_test.egg-info/requires.txt
+[1.379s] writing top-level names to ../../build/py_server_test/py_server_test.egg-info/top_level.txt
+[1.379s] writing manifest file '../../build/py_server_test/py_server_test.egg-info/SOURCES.txt'
+[1.381s] reading manifest file '../../build/py_server_test/py_server_test.egg-info/SOURCES.txt'
+[1.382s] writing manifest file '../../build/py_server_test/py_server_test.egg-info/SOURCES.txt'
+[1.382s] running build
+[1.382s] running build_py
+[1.382s] creating /home/prajesh/my_ws/build/py_server_test/build
+[1.383s] creating /home/prajesh/my_ws/build/py_server_test/build/lib
+[1.383s] creating /home/prajesh/my_ws/build/py_server_test/build/lib/py_server_test
+[1.383s] copying py_server_test/__init__.py -> /home/prajesh/my_ws/build/py_server_test/build/lib/py_server_test
+[1.383s] running install
+[1.383s] running install_lib
+[1.384s] creating /home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages/py_server_test
+[1.384s] copying /home/prajesh/my_ws/build/py_server_test/build/lib/py_server_test/__init__.py -> /home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages/py_server_test
+[1.385s] byte-compiling /home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages/py_server_test/__init__.py to __init__.cpython-310.pyc
+[1.386s] running install_data
+[1.386s] creating /home/prajesh/my_ws/install/py_server_test/share/ament_index
+[1.387s] creating /home/prajesh/my_ws/install/py_server_test/share/ament_index/resource_index
+[1.387s] creating /home/prajesh/my_ws/install/py_server_test/share/ament_index/resource_index/packages
+[1.387s] copying resource/py_server_test -> /home/prajesh/my_ws/install/py_server_test/share/ament_index/resource_index/packages
+[1.387s] copying package.xml -> /home/prajesh/my_ws/install/py_server_test/share/py_server_test
+[1.387s] running install_egg_info
+[1.390s] Copying ../../build/py_server_test/py_server_test.egg-info to /home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages/py_server_test-0.0.0-py3.10.egg-info
+[1.391s] running install_scripts
+[1.415s] writing list of installed files to '/home/prajesh/my_ws/build/py_server_test/install.log'
+[1.446s] Invoked command in '/home/prajesh/my_ws/src/py_server_test' returned '0': PYTHONPATH=/home/prajesh/my_ws/build/py_server_test/prefix_override:/home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_server_test build --build-base /home/prajesh/my_ws/build/py_server_test/build install --record /home/prajesh/my_ws/build/py_server_test/install.log --single-version-externally-managed

@@ -1,0 +1,60 @@
+[0.033s] Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4
+[0.056s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.187s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.213s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.215s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.221s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.304s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.306s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.347s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.565s] -- Configuring done
+[0.576s] -- Generating done
+[0.578s] -- Build files have been written to: /home/prajesh/my_ws/build/cpp_test_pkg
+[0.604s] [ 50%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_pub.cpp.o[0m
+[4.461s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[4.461s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[4.461s]                  from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int64__struct.hpp:8[m[K,
+[4.461s]                  from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/int64.hpp:7[m[K,
+[4.461s]                  from [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/number_pub.cpp:2[m[K:
+[4.462s] /usr/include/c++/11/functional: In instantiation of ‘[01m[Kstruct std::_Bind_check_arity<void (MyNode::*)(std_msgs::msg::Int64_<std::allocator<void> >), MyNode*>[m[K’:
+[4.462s] [01m[K/usr/include/c++/11/functional:768:12:[m[K   required from ‘[01m[Kstruct std::_Bind_helper<false, void (MyNode::*)(std_msgs::msg::Int64_<std::allocator<void> >), MyNode*>[m[K’
+[4.462s] [01m[K/usr/include/c++/11/functional:789:5:[m[K   required by substitution of ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (MyNode::*)(std_msgs::msg::Int64_<std::allocator<void> >); _BoundArgs = {MyNode*}][m[K’
+[4.462s] [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/number_pub.cpp:25:87:[m[K   required from here
+[4.462s] [01m[K/usr/include/c++/11/functional:756:21:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Wrong number of arguments for pointer-to-member
+[4.462s]   755 |       static_assert(_Varargs::[01;31m[Kvalue[m[K
+[4.462s]       |                               [01;31m[K~~~~~[m[K
+[4.462s]   756 | [01;31m[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1[m[K
+[4.462s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.462s]   757 | [01;31m[K                    : sizeof...(_BoundArgs) == _Arity::value + 1[m[K,
+[4.462s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.462s] [01m[K/usr/include/c++/11/functional:756:21:[m[K [01;36m[Knote: [m[K‘[01m[K(false ? (1 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (1 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))[m[K’ evaluates to false
+[4.466s] [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/number_pub.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[4.466s] [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/number_pub.cpp:25:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMyNode::create_wall_timer(std::chrono::milliseconds, std::_Bind_helper<false, void (MyNode::*)(std_msgs::msg::Int64_<std::allocator<void> >), MyNode*>::type)[m[K’
+[4.466s]    25 |             timer_ = [01;31m[Kthis->create_wall_timer(std::chrono::milliseconds(500), std::bind(&MyNode::pub_fun, this))[m[K;
+[4.466s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.467s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.467s]                  from [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/number_pub.cpp:3[m[K:
+[4.467s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[4.467s]   238 |   [01;36m[Kcreate_wall_timer[m[K(
+[4.467s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[4.467s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.467s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[4.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.467s]                  from [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/number_pub.cpp:3[m[K:
+[4.467s] /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In substitution of ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr) [with DurationRepT = long int; DurationT = std::ratio<1, 1000>; CallbackT = std::_Bind<void (MyNode::*(MyNode*))(std_msgs::msg::Int64_<std::allocator<void> >)>][m[K’:
+[4.467s] [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/number_pub.cpp:25:45:[m[K   required from here
+[4.468s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[4.468s]   110 | [01;31m[KNode[m[K::create_wall_timer(
+[4.468s]       | [01;31m[K^~~~[m[K
+[4.468s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[4.468s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:[m[K [01;36m[Knote: [m[Kinvalid template non-type parameter
+[5.603s] gmake[2]: *** [CMakeFiles/number_publisher.dir/build.make:76: CMakeFiles/number_publisher.dir/src/number_pub.cpp.o] Error 1
+[5.603s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/number_publisher.dir/all] Error 2
+[5.603s] gmake: *** [Makefile:146: all] Error 2
+[5.605s] Invoked command in '/home/prajesh/my_ws/build/cpp_test_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4

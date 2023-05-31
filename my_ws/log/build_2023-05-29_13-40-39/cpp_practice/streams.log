@@ -1,0 +1,13 @@
+[0.038s] Invoking command in '/home/prajesh/my_ws/build/cpp_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_practice -- -j4 -l4
+[0.104s] [ 25%] [32mBuilding CXX object CMakeFiles/add_cpp.dir/src/add_cpp.cpp.o[0m
+[0.113s] [ 75%] Built target number_generator
+[0.314s] In file included from [01m[K/opt/ros/humble/include/std_srvs/std_srvs/srv/set_bool.hpp:11[m[K,
+[0.315s]                  from [01m[K/home/prajesh/my_ws/src/cpp_practice/src/add_cpp.cpp:4[m[K:
+[0.315s] [01m[K/opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__builder.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/srv/detail/set_bool__struct.hpp: No such file or directory
+[0.315s]    11 | #include [01;31m[K"std_srvs/srv/detail/set_bool__struct.hpp"[m[K
+[0.315s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.315s] compilation terminated.
+[0.319s] gmake[2]: *** [CMakeFiles/add_cpp.dir/build.make:76: CMakeFiles/add_cpp.dir/src/add_cpp.cpp.o] Error 1
+[0.319s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/add_cpp.dir/all] Error 2
+[0.320s] gmake: *** [Makefile:146: all] Error 2
+[0.581s] Invoked command in '/home/prajesh/my_ws/build/cpp_practice' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_practice -- -j4 -l4

@@ -1,0 +1,10 @@
+[01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:14:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   14 |     [01;31m[Kauto[m[K srv = battery_interfaces::srv::BatteryStatus();
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:[m[K In member function ‘[01m[Kvoid BatteryStateClass::client_callback()[m[K’:
+[01m[K/home/prajesh/my_ws/src/led_system/src/led_client.cpp:34:29:[m[K [01;31m[Kerror: [m[K‘[01m[KTrue[m[K’ was not declared in this scope
+   34 |                 srv.state = [01;31m[KTrue[m[K;
+      |                             [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/led_client.dir/build.make:76: CMakeFiles/led_client.dir/src/led_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/led_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

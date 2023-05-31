@@ -1,0 +1,4 @@
+[console_scripts]
+turtle_controller_node = py_final_project.turtle_controller:main
+turtle_generator_node = py_final_project.turtle_generator:main
+

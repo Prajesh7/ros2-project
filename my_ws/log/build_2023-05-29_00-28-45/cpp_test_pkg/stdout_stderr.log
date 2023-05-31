@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_pub.cpp.o[0m
+[01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/number_pub.cpp:[m[K In member function ‘[01m[Kvoid MyNode::pub_fun()[m[K’:
+[01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/number_pub.cpp:18:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kmsg[m[K’
+   18 |             [01;31m[Kmsg[m[K.data = count;
+      |             [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/number_publisher.dir/build.make:76: CMakeFiles/number_publisher.dir/src/number_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/number_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

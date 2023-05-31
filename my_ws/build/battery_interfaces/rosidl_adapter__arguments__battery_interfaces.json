@@ -1,0 +1,7 @@
+{
+  "package_name": "battery_interfaces",
+  "non_idl_tuples": [
+    "/home/prajesh/my_ws/src/battery_interfaces:msg/LedState.msg",
+    "/home/prajesh/my_ws/src/battery_interfaces:srv/BatteryStatus.srv"
+  ]
+}

@@ -1,0 +1,179 @@
+[0.028s] Invoking command in '/home/prajesh/my_ws/build/battery_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/battery_interfaces -- -j4 -l4
+[0.096s] [ 10%] Built target battery_interfaces__rosidl_generator_c
+[0.112s] [ 12%] Built target battery_interfaces__cpp
+[0.122s] [ 12%] Built target ament_cmake_python_copy_battery_interfaces
+[0.182s] [ 23%] Built target battery_interfaces__rosidl_typesupport_introspection_c
+[0.187s] [ 35%] Built target battery_interfaces__rosidl_typesupport_c
+[0.189s] [ 43%] Built target battery_interfaces__rosidl_typesupport_fastrtps_c
+[0.195s] [ 53%] Built target battery_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.218s] [ 64%] Built target battery_interfaces__rosidl_typesupport_cpp
+[0.248s] [ 74%] Built target battery_interfaces__rosidl_typesupport_introspection_cpp
+[0.279s] [ 74%] Built target battery_interfaces
+[0.315s] [ 76%] Built target battery_interfaces__py
+[0.341s] [ 84%] Built target battery_interfaces__rosidl_generator_py
+[0.398s] [ 89%] Built target battery_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.403s] [ 94%] Built target battery_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.442s] [100%] Built target battery_interfaces__rosidl_typesupport_c__pyext
+[0.476s] running egg_info
+[0.477s] writing battery_interfaces.egg-info/PKG-INFO
+[0.477s] writing dependency_links to battery_interfaces.egg-info/dependency_links.txt
+[0.477s] writing top-level names to battery_interfaces.egg-info/top_level.txt
+[0.480s] reading manifest file 'battery_interfaces.egg-info/SOURCES.txt'
+[0.481s] writing manifest file 'battery_interfaces.egg-info/SOURCES.txt'
+[0.514s] [100%] Built target ament_cmake_python_build_battery_interfaces_egg
+[0.533s] Invoked command in '/home/prajesh/my_ws/build/battery_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/battery_interfaces -- -j4 -l4
+[0.893s] Invoking command in '/home/prajesh/my_ws/build/battery_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/battery_interfaces
+[0.902s] -- Install configuration: ""
+[0.902s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/ament_index/resource_index/rosidl_interfaces/battery_interfaces
+[0.903s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces
+[0.903s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg
+[0.903s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/led_state.h
+[0.905s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail
+[0.905s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail/led_state__functions.c
+[0.905s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail/led_state__functions.h
+[0.905s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail/led_state__struct.h
+[0.906s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail/led_state__type_support.h
+[0.906s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.906s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv
+[0.906s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/battery_status.h
+[0.906s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail
+[0.907s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/battery_status__functions.c
+[0.907s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/battery_status__functions.h
+[0.907s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/battery_status__struct.h
+[0.907s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/battery_status__type_support.h
+[0.907s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/environment/library_path.sh
+[0.907s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/environment/library_path.dsv
+[0.907s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_generator_c.so
+[0.907s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces
+[0.912s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg
+[0.912s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail
+[0.912s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail/led_state__rosidl_typesupport_fastrtps_c.h
+[0.912s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.912s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv
+[0.912s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail
+[0.913s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/battery_status__rosidl_typesupport_fastrtps_c.h
+[0.913s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.913s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces
+[0.913s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg
+[0.913s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.914s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail
+[0.914s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail/led_state__type_support.c
+[0.914s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail/led_state__rosidl_typesupport_introspection_c.h
+[0.914s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv
+[0.914s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail
+[0.915s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/battery_status__rosidl_typesupport_introspection_c.h
+[0.916s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/battery_status__type_support.c
+[0.916s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_typesupport_introspection_c.so
+[0.916s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_typesupport_c.so
+[0.916s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces
+[0.916s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg
+[0.917s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/led_state.hpp
+[0.917s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail
+[0.917s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail/led_state__struct.hpp
+[0.917s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail/led_state__builder.hpp
+[0.917s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail/led_state__traits.hpp
+[0.917s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv
+[0.917s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail
+[0.918s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/battery_status__builder.hpp
+[0.918s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/battery_status__struct.hpp
+[0.918s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/battery_status__traits.hpp
+[0.918s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/battery_status.hpp
+[0.919s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces
+[0.919s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg
+[0.919s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.919s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail
+[0.921s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail/dds_fastrtps
+[0.922s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail/led_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.922s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv
+[0.922s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail
+[0.922s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/dds_fastrtps
+[0.922s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/battery_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.922s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.922s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces
+[0.922s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg
+[0.923s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail
+[0.923s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail/led_state__type_support.cpp
+[0.923s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/msg/detail/led_state__rosidl_typesupport_introspection_cpp.hpp
+[0.923s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv
+[0.923s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail
+[0.926s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/battery_status__rosidl_typesupport_introspection_cpp.hpp
+[0.926s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/include/battery_interfaces/battery_interfaces/srv/detail/battery_status__type_support.cpp
+[0.926s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.926s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_typesupport_cpp.so
+[0.926s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/environment/pythonpath.sh
+[0.927s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/environment/pythonpath.dsv
+[0.927s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces-0.0.0-py3.10.egg-info
+[0.928s] -- Installing: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.928s] -- Installing: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.928s] -- Installing: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.928s] -- Installing: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.947s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces
+[0.947s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/_battery_interfaces_s.ep.rosidl_typesupport_c.c
+[0.947s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/battery_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.947s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/msg
+[0.947s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/msg/__init__.py
+[0.947s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/msg/_led_state_s.c
+[0.947s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/msg/_led_state.py
+[0.947s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/__init__.py
+[0.947s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/_battery_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.947s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/battery_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.947s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/_battery_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.947s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/battery_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.947s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/srv
+[0.948s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/srv/__init__.py
+[0.948s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/srv/_battery_status_s.c
+[0.948s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/srv/_battery_status.py
+[0.948s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/libbattery_interfaces__rosidl_generator_py.so
+[0.968s] Listing '/home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces'...
+[0.968s] Listing '/home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/msg'...
+[0.968s] Listing '/home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/srv'...
+[0.995s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/battery_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.996s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/battery_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.996s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/local/lib/python3.10/dist-packages/battery_interfaces/battery_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.996s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/lib/libbattery_interfaces__rosidl_generator_py.so
+[0.997s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/msg/LedState.idl
+[0.997s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/srv/BatteryStatus.idl
+[0.997s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/msg/LedState.msg
+[0.997s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/srv/BatteryStatus.srv
+[0.997s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/srv/BatteryStatus_Request.msg
+[0.997s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/srv/BatteryStatus_Response.msg
+[0.998s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/ament_index/resource_index/package_run_dependencies/battery_interfaces
+[0.999s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/ament_index/resource_index/parent_prefix_path/battery_interfaces
+[0.999s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/environment/ament_prefix_path.sh
+[0.999s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/environment/ament_prefix_path.dsv
+[0.999s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/environment/path.sh
+[0.999s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/environment/path.dsv
+[0.999s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/local_setup.bash
+[1.000s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/local_setup.sh
+[1.000s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/local_setup.zsh
+[1.000s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/local_setup.dsv
+[1.000s] -- Installing: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/package.dsv
+[1.000s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/ament_index/resource_index/packages/battery_interfaces
+[1.000s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_generator_cExport.cmake
+[1.001s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.001s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.001s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.001s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.002s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.002s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_cExport.cmake
+[1.002s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.002s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_generator_cppExport.cmake
+[1.002s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.002s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.002s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.002s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.003s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_cppExport.cmake
+[1.003s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.003s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_generator_pyExport.cmake
+[1.003s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/export_battery_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.003s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.003s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.004s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.004s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.004s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.004s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.004s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.004s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfacesConfig.cmake
+[1.004s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/cmake/battery_interfacesConfig-version.cmake
+[1.004s] -- Up-to-date: /home/prajesh/my_ws/install/battery_interfaces/share/battery_interfaces/package.xml
+[1.013s] Invoked command in '/home/prajesh/my_ws/build/battery_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/py_final_project:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/battery_interfaces

@@ -1,0 +1,5 @@
+[0.032s] Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target n_publisher[0m
+[0.128s] [ 50%] [32mBuilding CXX object CMakeFiles/n_publisher.dir/src/n_publisher.cpp.o[0m
+[5.442s] [ 50%] [32m[1mLinking CXX executable n_publisher[0m
+[5.662s] [ 50%] Built target n_publisher

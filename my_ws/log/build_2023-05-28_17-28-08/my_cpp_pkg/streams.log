@@ -1,0 +1,51 @@
+[0.022s] Invoking command in '/home/prajesh/my_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[0.073s] [ 33%] Built target robot_news_station
+[0.076s] [ 66%] Built target cpp_node1
+[0.082s] [ 83%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[2.120s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.121s]                  from [01m[K/home/prajesh/my_ws/src/my_cpp_pkg/src/smartphone.cpp:3[m[K:
+[2.121s] [01m[K/home/prajesh/my_ws/src/my_cpp_pkg/src/smartphone.cpp:[m[K In member function ‘[01m[Kvoid Smartphone::sub_fun(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.121s] [01m[K/home/prajesh/my_ws/src/my_cpp_pkg/src/smartphone.cpp:16:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.121s]    16 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"%s"[m[K, st);
+[2.121s]       |                                         [01;35m[K^~~~[m[K
+[2.121s] [01m[K/home/prajesh/my_ws/src/my_cpp_pkg/src/smartphone.cpp:16:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.121s]    16 |         RCLCPP_INFO(this->get_logger(), "[01;36m[K%s[m[K", st);
+[2.121s]       |                                          [01;36m[K~^[m[K
+[2.122s]       |                                           [01;36m[K|[m[K
+[2.122s]       |                                           [01;36m[Kchar*[m[K
+[7.178s] [100%] [32m[1mLinking CXX executable smartphone[0m
+[7.471s] [100%] Built target smartphone
+[7.482s] Invoked command in '/home/prajesh/my_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4
+[7.513s] Invoking command in '/home/prajesh/my_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/my_cpp_pkg
+[7.518s] -- Install configuration: ""
+[7.518s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node1
+[7.518s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[7.518s] -- Installing: /home/prajesh/my_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[7.522s] -- Set runtime path of "/home/prajesh/my_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[7.522s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[7.522s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[7.523s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[7.523s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[7.523s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[7.523s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[7.523s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[7.523s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[7.523s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[7.524s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[7.524s] -- Installing: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[7.526s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[7.527s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[7.527s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[7.527s] -- Up-to-date: /home/prajesh/my_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[7.527s] Invoked command in '/home/prajesh/my_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/prajesh/my_ws/build/my_cpp_pkg

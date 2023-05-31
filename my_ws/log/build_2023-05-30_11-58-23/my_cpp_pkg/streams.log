@@ -1,0 +1,8 @@
+[0.057s] Invoking command in '/home/prajesh/my_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/py_server_test:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4
+[0.139s] [ 25%] Built target cpp_node1
+[0.144s] [35m[1mConsolidate compiler generated dependencies of target hw_status_publisher[0m
+[0.159s] [ 50%] Built target robot_news_station
+[0.161s] [ 75%] Built target smartphone
+[0.172s] [ 87%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[4.742s] [100%] [32m[1mLinking CXX executable hw_status_publisher[0m
+[4.884s] [100%] Built target hw_status_publisher

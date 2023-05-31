@@ -1,0 +1,27 @@
+[0.018s] Invoking command in '/home/prajesh/my_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4
+[0.043s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.165s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.193s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.195s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.200s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.209s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.222s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.272s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.273s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.299s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.441s] [31mCMake Error at CMakeLists.txt:12 (add_executable):
+[0.441s]   The target name "cpp_node1," is reserved or not valid for certain CMake
+[0.442s]   features, such as generator expressions, and may result in undefined
+[0.442s]   behavior.
+[0.442s] 
+[0.442s] [0m
+[0.442s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.442s]   ament_target_dependencies() the first argument must be a valid target name
+[0.442s] Call Stack (most recent call first):
+[0.442s]   CMakeLists.txt:13 (ament_target_dependencies)
+[0.442s] 
+[0.442s] [0m
+[0.442s] -- Configuring incomplete, errors occurred!
+[0.442s] See also "/home/prajesh/my_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.446s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.447s] Invoked command in '/home/prajesh/my_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/my_cpp_pkg -- -j4 -l4

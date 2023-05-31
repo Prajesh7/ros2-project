@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/py_server_test/py_server_test.egg-info/PKG-INFO
+../../build/py_server_test/py_server_test.egg-info/SOURCES.txt
+../../build/py_server_test/py_server_test.egg-info/dependency_links.txt
+../../build/py_server_test/py_server_test.egg-info/entry_points.txt
+../../build/py_server_test/py_server_test.egg-info/requires.txt
+../../build/py_server_test/py_server_test.egg-info/top_level.txt
+../../build/py_server_test/py_server_test.egg-info/zip-safe
+py_server_test/__init__.py
+py_server_test/add_two_int.py
+py_server_test/add_two_int_client.py
+resource/py_server_test
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,10 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/add_cpp.dir/src/add_cpp.cpp.o[0m
+[ 75%] Built target number_generator
+In file included from [01m[K/home/prajesh/my_ws/src/cpp_practice/src/add_cpp.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/set_bool.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/detail/set_bool__struct.hpp: No such file or directory
+    7 | #include [01;31m[K"example_interfaces/srv/detail/set_bool__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/add_cpp.dir/build.make:76: CMakeFiles/add_cpp.dir/src/add_cpp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/add_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

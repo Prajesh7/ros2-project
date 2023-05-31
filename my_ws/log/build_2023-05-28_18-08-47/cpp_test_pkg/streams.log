@@ -1,0 +1,31 @@
+[0.039s] Invoking command in '/home/prajesh/my_ws/build/cpp_test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4
+[0.058s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.196s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.220s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.222s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.228s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.238s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.314s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.315s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.344s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.545s] -- Configuring done
+[0.556s] -- Generating done
+[0.556s] -- Build files have been written to: /home/prajesh/my_ws/build/cpp_test_pkg
+[0.575s] [35m[1mConsolidate compiler generated dependencies of target n_publisher[0m
+[0.589s] [ 50%] [32mBuilding CXX object CMakeFiles/n_publisher.dir/src/n_publisher.cpp.o[0m
+[2.662s] [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/n_publisher.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[2.662s] [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/n_publisher.cpp:23:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpub[m[K’
+[2.662s]    23 |             [01;31m[Kpub[m[K = this->create_publisher<std_msgs::msg::Int64>("number", 10)
+[2.662s]       |             [01;31m[K^~~[m[K
+[2.663s] [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/n_publisher.cpp:24:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktimer_[m[K’
+[2.663s]    24 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::milliseconds(500),std::bind(&MyNode::pub_fun, this))
+[2.664s]       |             [01;31m[K^~~~~~[m[K
+[2.667s] [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/n_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.667s] [01m[K/home/prajesh/my_ws/src/cpp_test_pkg/src/n_publisher.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Keclcpp[m[K’ has not been declared
+[2.667s]    34 |     [01;31m[Keclcpp[m[K::shutdown();
+[2.667s]       |     [01;31m[K^~~~~~[m[K
+[3.355s] gmake[2]: *** [CMakeFiles/n_publisher.dir/build.make:76: CMakeFiles/n_publisher.dir/src/n_publisher.cpp.o] Error 1
+[3.355s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/n_publisher.dir/all] Error 2
+[3.355s] gmake: *** [Makefile:146: all] Error 2
+[3.358s] Invoked command in '/home/prajesh/my_ws/build/cpp_test_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prajesh/my_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/prajesh/my_ws/build/cpp_test_pkg -- -j4 -l4

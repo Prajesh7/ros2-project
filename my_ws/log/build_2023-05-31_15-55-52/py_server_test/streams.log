@@ -1,0 +1,22 @@
+[0.721s] Invoking command in '/home/prajesh/my_ws/src/py_server_test': PYTHONPATH=/home/prajesh/my_ws/build/py_server_test/prefix_override:/home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_server_test build --build-base /home/prajesh/my_ws/build/py_server_test/build install --record /home/prajesh/my_ws/build/py_server_test/install.log --single-version-externally-managed
+[0.963s] running egg_info
+[0.963s] writing ../../build/py_server_test/py_server_test.egg-info/PKG-INFO
+[0.964s] writing dependency_links to ../../build/py_server_test/py_server_test.egg-info/dependency_links.txt
+[0.964s] writing entry points to ../../build/py_server_test/py_server_test.egg-info/entry_points.txt
+[0.964s] writing requirements to ../../build/py_server_test/py_server_test.egg-info/requires.txt
+[0.964s] writing top-level names to ../../build/py_server_test/py_server_test.egg-info/top_level.txt
+[0.967s] reading manifest file '../../build/py_server_test/py_server_test.egg-info/SOURCES.txt'
+[0.969s] writing manifest file '../../build/py_server_test/py_server_test.egg-info/SOURCES.txt'
+[0.969s] running build
+[0.969s] running build_py
+[0.969s] running install
+[0.969s] running install_lib
+[0.970s] running install_data
+[0.970s] running install_egg_info
+[0.972s] removing '/home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages/py_server_test-0.0.0-py3.10.egg-info' (and everything under it)
+[0.972s] Copying ../../build/py_server_test/py_server_test.egg-info to /home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages/py_server_test-0.0.0-py3.10.egg-info
+[0.973s] running install_scripts
+[0.992s] Installing add_two_int script to /home/prajesh/my_ws/install/py_server_test/lib/py_server_test
+[0.992s] Installing add_two_int_client script to /home/prajesh/my_ws/install/py_server_test/lib/py_server_test
+[0.993s] writing list of installed files to '/home/prajesh/my_ws/build/py_server_test/install.log'
+[1.020s] Invoked command in '/home/prajesh/my_ws/src/py_server_test' returned '0': PYTHONPATH=/home/prajesh/my_ws/build/py_server_test/prefix_override:/home/prajesh/my_ws/install/py_server_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_server_test build --build-base /home/prajesh/my_ws/build/py_server_test/build install --record /home/prajesh/my_ws/build/py_server_test/install.log --single-version-externally-managed
